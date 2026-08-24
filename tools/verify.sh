@@ -27,6 +27,7 @@ chk "no absolute home paths" "$($G -rn "/Users/" . --exclude-dir=.git --exclude-
 chk "zero em dashes" "$($G -rl $'—' . --exclude-dir=.git --exclude-dir=tools --exclude-dir=__pycache__ 2>/dev/null | wc -l | tr -d ' ')"
 
 python3 tools/check-structure.py; chk "structure" $?
+python3 tools/mutation-sweep.py >/dev/null 2>&1; chk "gates discriminate (mutation sweep)" $?
 python3 tools/eval-router.py >/dev/null 2>&1; chk "router eval >=85% top-1" $?
 python3 tools/build-cheatsheet.py >/dev/null 2>&1; chk "cheat sheet regenerates" $?
 
