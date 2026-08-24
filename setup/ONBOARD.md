@@ -138,14 +138,15 @@ PASS or FAIL with what you actually saw. A FAIL is fine and honest. A false PASS
 |---|---|---|---|
 | 1 | Handbook is live | Read `~/.claude/CLAUDE.md` and quote their agent's name back | Their chosen name appears |
 | 2 | No placeholders left | Search the handbook for `[` and `]` | Zero remaining |
-| 3 | Skills are loaded | Count the skills available | 20 core, plus 5 from their lane pack |
+| 3 | Skills are loaded | Count the skills available | 25 core, plus 5 from their lane pack |
 | 4 | Memory files exist | List `memory/` | board, decisions, state all present |
 | 5 | Board is real | Read `memory/board.md` back | Their Question 9 items are in it |
 | 6 | Calendar connected | Name their next real appointment | A real event, or an honest "not connected" |
 | 7 | Email connected | Count unread in the last 24 hours | A real number, or an honest "not connected" |
 | 8 | Browser connected | Name a tab they have open | A real tab title, or an honest "not connected" |
 | 9 | Work folder reachable | List three real filenames | Three real files |
-| 10 | First win delivered | Point at the artifact from Question 12 | A real file or a real answer |
+| 10 | Router is live | Say a plain sentence like "what should I do first" and name the skill that fired | A skill name, not a generic answer |
+| 11 | First win delivered | Point at the artifact from Question 12 | A real file or a real answer |
 
 Report the result as a plain table. If anything failed, say what failed, what you tried, and what
 you need from them, in three lines. Never bury a failure.

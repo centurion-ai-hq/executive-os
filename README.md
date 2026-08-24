@@ -111,7 +111,7 @@ Pick one during setup. You can add another later.
 | `PLAYBOOK.html` | Three pages. How to run your chief of staff. |
 | `CHEAT-SHEET.html` | One page. Every skill and what to say to fire it. |
 | `plugins/exec/` | The core: 25 skills, 4 agents, 3 hooks including the router. |
-| `plugins/exec-*/` | The four lane packs, 5 skills each. |
+| `plugins/exec-*/` | The four lane packs. Five skills each, you install one. |
 | `setup/ONBOARD.md` | The twelve question setup interview. |
 | `setup/CLAUDE-TEMPLATE.md` | The handbook template the interview fills in. |
 | `setup/EDIT-MANIFEST.md` | Which answer edits which file. Also readable by a human. |
