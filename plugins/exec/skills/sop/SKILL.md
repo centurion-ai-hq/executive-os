@@ -1,6 +1,7 @@
 ---
 description: "Turns a process that only lives in someone's head into a written procedure another person could follow without asking a question, built through a one-question-at-a-time interview. Use when the user says 'write an SOP', 'turn this into a procedure', 'document this process', 'make a checklist for X', or a task needs to survive the person who currently does it being unavailable."
 argument-hint: "[the process to document]"
+when_to_use: Fire this when the user says anything like "turn this into a procedure", "write an sop", "document this process", "so someone else can do it", "how we do this", "standard operating", "repeatable", "hand this off to someone", "train someone on this", "write down how".
 ---
 
 # SOP

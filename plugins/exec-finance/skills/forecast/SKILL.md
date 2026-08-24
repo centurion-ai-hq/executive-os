@@ -1,6 +1,7 @@
 ---
 description: "Projects cash and revenue forward from real inputs the executive supplies, states every assumption on its own line, and gives a base case and a downside case rather than one false-precision number. Use when the user says 'forecast the next quarter', 'what's our cash going to look like', 'will we run out of money', 'project revenue', 'model this out', or supplies current numbers and asks what happens next."
 argument-hint: "[current cash, revenue, and expense figures]"
+when_to_use: Fire this when the user says anything like "forecast", "run out of money", "cash flow", "project revenue", "next quarter", "runway", "model this out", "what happens if", "cash position", "will we make it".
 ---
 
 # Cash and Revenue Forecast

@@ -1,6 +1,7 @@
 ---
 description: "Assembles the board meeting packet as a styled, self-contained HTML document: an executive summary leading with what the board must decide, the numbers with the story behind them, risks stated honestly, and each requested decision written as a card with a recommendation and a deadline. Use when the user says 'build the board packet', 'prep the board meeting', 'board deck', 'put together the board materials', or a board meeting is coming up."
 argument-hint: "[meeting date and topics]"
+when_to_use: Fire this when the user says anything like "board packet", "board meeting", "board materials", "board deck", "prep the board", "what the board needs", "board update", "for the board".
 ---
 
 # Board Packet

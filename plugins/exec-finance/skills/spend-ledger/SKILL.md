@@ -1,6 +1,7 @@
 ---
 description: "Builds and maintains a running ledger of every recurring subscription and vendor charge: what it is, monthly and annual cost, who owns it, when it renews, and whether it is still used. Use when the user says 'what are we paying for', 'build the subscription list', 'what's renewing soon', 'audit our vendors', 'are we still using this', or pastes a list of charges or a card statement."
 argument-hint: "[paste charges, statement, or vendor list]"
+when_to_use: Fire this when the user says anything like "what are we paying for", "subscriptions", "recurring charges", "renewing soon", "what renews", "vendor charges", "monthly costs", "are we still using", "cancel anything", "our software costs".
 ---
 
 # Spend Ledger

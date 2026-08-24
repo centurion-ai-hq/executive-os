@@ -1,6 +1,7 @@
 ---
 description: "Draft an email in the executive's own voice and park it as a draft; never sends. Use when the user says 'draft an email', 'write an email', 'email someone about', 'help me write to X', 'I need to send something to', 'reply to this', or 'compose an email'. Gathers the who/what/history, writes one clean draft, revises on feedback, and deposits to their email drafts folder if a connector is wired, or hands them the text to paste if not."
 argument-hint: "[recipient] [topic or intent]"
+when_to_use: Fire this when the user says anything like "draft an email", "write an email", "send something to", "reply to this", "compose", "write to", "email them", "email her", "email him", "follow up with", "get back to them", "respond to this", "note to".
 ---
 
 # Email

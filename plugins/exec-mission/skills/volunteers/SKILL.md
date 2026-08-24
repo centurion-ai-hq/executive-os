@@ -1,6 +1,7 @@
 ---
 description: "Runs the volunteer side end to end: builds the role description, the onboarding sequence, the shift plan, and the recognition rhythm, treating a volunteer's time as a real cost to be respected. Use when the user says 'we need volunteers for', 'build a volunteer role', 'volunteer onboarding', 'shift plan', 'set up a volunteer programme', or is standing up or fixing how volunteers are managed."
 argument-hint: "[the role or programme]"
+when_to_use: Fire this when the user says anything like "volunteer", "volunteers", "shift plan", "volunteer onboarding", "we need people to help", "recruit helpers", "volunteer roles", "community helpers".
 ---
 
 # Volunteer Programme

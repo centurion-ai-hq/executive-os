@@ -45,7 +45,7 @@ A human can also read this table to hand-edit their own setup later. That is del
 {
   "setup_completed": "YYYY-MM-DD",
   "agent_name": "<what they named it>",
-  "lane_pack": "<sales|ops|finance|nonprofit|none>",
+  "lane_pack": "<sales|ops|finance|mission-driven|none>",
   "connectors": { "email": true, "calendar": true, "browser": true },
   "kit_version": "1.0.0"
 }

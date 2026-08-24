@@ -33,8 +33,9 @@ If Claude Code is already installed, skip straight to the two lines:
 | | |
 |---|---|
 | **A chief of staff** | Named by you. Holds the whole picture, tells you what you are walking into, does the work. |
-| **20 core skills** | Plus 5 more from the one lane pack that matches your work. |
+| **25 core skills** | Twenty everyday skills plus five battle drills. Plus 5 more from the one lane pack that matches your work. |
 | **Real memory** | A handbook, a corrections log, a decisions log, a live priority board, and session state. It stops forgetting. |
+| **Automatic firing** | You never invoke anything. Every message you send arrives with your full skill list and the matching procedure already attached. |
 | **A guided setup** | Twelve questions, one at a time, applied as you answer, verified at the end with proof rather than a claim. |
 | **A three page playbook** | [PLAYBOOK.html](PLAYBOOK.html), plus a one page [cheat sheet](CHEAT-SHEET.html). |
 
@@ -47,6 +48,32 @@ context worth keeping. It shows you that ledger before it starts, so you can see
 
 The thing you mention once in passing is usually the thing that costs you when it is forgotten. That
 is the item this is built to catch.
+
+## Why you never have to learn commands
+
+Left alone, Claude picks a skill by reading skill descriptions and hoping one matches. Community
+measurement puts that at roughly half the time. Half is useless for someone who will never notice
+the miss and would never type the command anyway.
+
+So a hook runs on every single message and does two things:
+
+1. **It puts the whole menu in front of the model, every turn.** All thirty of your installed
+   skills, each with a one line job, arrive attached to what you wrote. The model then matches on
+   meaning rather than on wording. This is the part that generalises, because people do not speak
+   from a list.
+2. **It also runs plain phrase matching** against 513 recorded trigger phrases. When that fires
+   with high confidence it attaches the matched skill's full procedure too, so nothing needs to be
+   looked up.
+
+Roughly 900 tokens per message, about 70 milliseconds, no model call in the hook itself. It fails
+open: if it breaks, the session carries on without it.
+
+**Honest measurement.** The phrase-matching layer alone gets 35% top-1 on a held-out test of 120
+executive sentences written by someone who never saw the trigger phrases. On a test written by the
+same author as the triggers it gets 96.6%, which is exactly why that second number is not the one
+quoted here. Where the phrase layer speaks up with high confidence, it is right 70.8% of the time.
+Recall is carried by layer one, the roster, which is measured separately against a real model in
+`tools/eval-model-results.md`. Run `python3 tools/eval-router.py` to reproduce all of it.
 
 ## The safety line
 
@@ -68,7 +95,7 @@ Pick one during setup. You can add another later.
 | `exec-sales` | Carrying a number | pipeline, prospects, outreach, proposal, objections |
 | `exec-ops` | Running the machine | process-audit, vendor-compare, checklist, incident, dashboard |
 | `exec-finance` | Watching the cash | budget, spend-ledger, forecast, unit-economics, collections |
-| `exec-nonprofit` | Serving a mission | grants, donor-brief, board-packet, impact-report, volunteers |
+| `exec-mission` | Carrying a mission or answering to a board | grants, stakeholder-brief, board-packet, impact-report, volunteers |
 
 ```
 /plugin install exec-sales@centurion
@@ -83,12 +110,14 @@ Pick one during setup. You can add another later.
 | `START-HERE.md` | The block you paste into Claude. Read this first. |
 | `PLAYBOOK.html` | Three pages. How to run your chief of staff. |
 | `CHEAT-SHEET.html` | One page. Every skill and what to say to fire it. |
-| `plugins/exec/` | The core: 20 skills, 4 agents, 3 hooks. |
+| `plugins/exec/` | The core: 25 skills, 4 agents, 3 hooks including the router. |
 | `plugins/exec-*/` | The four lane packs, 5 skills each. |
 | `setup/ONBOARD.md` | The twelve question setup interview. |
 | `setup/CLAUDE-TEMPLATE.md` | The handbook template the interview fills in. |
 | `setup/EDIT-MANIFEST.md` | Which answer edits which file. Also readable by a human. |
 | `tools/build-cheatsheet.py` | Regenerates the cheat sheet from the skills on disk. |
+| `tools/triggers.py` | The 513 phrases that fire each skill. Edit here, then re-inject. |
+| `tools/eval-router.py` | Scores the router. Run it after any change to triggers. |
 
 ## Requirements
 
@@ -102,7 +131,8 @@ remember.
 
 • **Memory loads at the start of every session**, so you never repeat yourself.
 • **Destructive commands are blocked**, so nothing gets deleted by accident.
-• **Long messages get sorted before they get answered**, so nothing in a dump gets dropped.
+• **Every message is matched to the right skill** before your assistant answers it, so you never
+  have to know what you have or ask for it by name.
 
 ---
 

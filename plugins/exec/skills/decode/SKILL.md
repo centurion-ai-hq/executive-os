@@ -1,6 +1,7 @@
 ---
 description: "Explains any concept, tool, term, or piece of jargon in plain English, no prior knowledge assumed. Use when the user says 'decode this', 'break it down', 'what is X', 'what does that mean', 'explain this to me', 'in plain English', 'ELI5', 'I don't understand this term', or drops an acronym, a tool name, or a technical word they need translated before they can decide something."
 argument-hint: "[the term, tool, or concept to explain]"
+when_to_use: Fire this when the user says anything like "what is", "what does that mean", "explain this", "in plain english", "break it down", "eli5", "I do not understand", "what does it do", "never heard of", "what is the difference", "translate this", "jargon", "acronym", "decode this", "dumb it down", "simply put".
 ---
 
 # Decode

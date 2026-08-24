@@ -1,5 +1,6 @@
 ---
 description: Converts any plan or process into a numbered run checklist with a do-criterion, a done-criterion, an owner, and a pass/fail check per line. Use when the user says "make this a checklist", "turn this into a run sheet", "give me steps to follow", "checklist this launch", or hands over a plan they need to execute from, not read about.
+when_to_use: Fire this when the user says anything like "make this a checklist", "run sheet", "steps I can follow", "checklist for", "what do I do in order", "so nothing gets missed", "walk through the launch", "go live steps".
 ---
 
 # Run Checklist

@@ -1,0 +1,15 @@
+{
+  "name": "exec-mission",
+  "version": "1.0.0",
+  "description": "Executive OS lane pack: mission and stakeholders. Five skills that install on top of the exec core.",
+  "author": {
+    "name": "Centurion AI"
+  },
+  "keywords": [
+    "executive",
+    "mission",
+    "stakeholders",
+    "board",
+    "impact"
+  ]
+}

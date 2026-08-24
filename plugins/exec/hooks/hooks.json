@@ -4,7 +4,7 @@
       { "hooks": [ { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/hooks/load-memory.sh", "timeout": 10 } ] }
     ],
     "UserPromptSubmit": [
-      { "hooks": [ { "type": "command", "command": "${CLAUDE_PLUGIN_ROOT}/hooks/nudge-brain-dump.sh", "timeout": 5 } ] }
+      { "hooks": [ { "type": "command", "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/router.py", "timeout": 10 } ] }
     ],
     "PreToolUse": [
       { "matcher": "Bash",

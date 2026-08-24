@@ -1,6 +1,7 @@
 ---
 description: "Reviews a budget or a spend export and reports what is actually happening: spend by category against plan, the three largest variances explained in plain English, what is drifting quietly, and one committed recommendation on where to cut or reallocate with a dollar figure attached. Use when the user says 'how are we doing against budget', 'run the budget review', 'where is spend drifting', 'check this against plan', or pastes a budget, spend export, or P&L."
 argument-hint: "[paste budget or spend export]"
+when_to_use: Fire this when the user says anything like "against budget", "budget review", "where is spend drifting", "over budget", "how are we doing on spend", "variance", "cost overrun", "our spending", "p and l", "p&l".
 ---
 
 # Budget Review

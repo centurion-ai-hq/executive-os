@@ -1,6 +1,7 @@
 ---
 description: "Works out what one unit actually costs and earns, per customer, per job, or per product, by walking the executive through the inputs one question at a time and showing the arithmetic in the open. Use when the user says 'what does it cost us per customer', 'what's our margin per job', 'break-even', 'unit economics', 'is this job profitable', or wants to know if a price actually makes money."
 argument-hint: "[the unit: customer, job, or product]"
+when_to_use: Fire this when the user says anything like "cost per customer", "margin per", "break even", "unit economics", "is this job profitable", "does this make money", "cost to serve", "per job", "what does one cost us", "profitable at that price".
 ---
 
 # Unit Economics

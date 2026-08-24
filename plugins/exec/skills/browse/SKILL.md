@@ -1,5 +1,6 @@
 ---
 description: Work with the user inside their real Chrome browser: read the page they are on, walk them through a website, pull information off a screen, fill a form with them, or explain what they are looking at. Use when the user says "look at this page", "help me navigate this site", "pull this off the screen", "what am I looking at", "walk me through this website", "grab this information", "help me fill this out", or refers to a webpage, portal, dashboard, or site they are currently on.
+when_to_use: Fire this when the user says anything like "look at this page", "this website", "this site", "on my screen", "what I am looking at", "pull this off", "navigate this", "help me get through this", "fill this out", "this portal", "this dashboard I am on", "walk me through this site", "grab this from the page", "log in and", "this web page", "can you see this", "this page", "stuck on this page", "on this site", "help me with this page", "reading this page".
 ---
 
 # Browse

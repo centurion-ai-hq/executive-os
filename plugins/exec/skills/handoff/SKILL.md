@@ -1,5 +1,6 @@
 ---
 description: "Saves exactly where a session stands, then reads it back at the start of the next one so work picks up clean instead of being re-explained. Use when the user says 'I have to go, save my place', 'let's pick this up later', 'where were we', or a new session needs to catch up on what already happened."
+when_to_use: Fire this when the user says anything like "save my place", "I have to go", "pick this up later", "pick this up tomorrow", "where were we", "continue where we left off", "running out of time", "stop here for now", "come back to this", "wrap up for today".
 ---
 
 # Handoff

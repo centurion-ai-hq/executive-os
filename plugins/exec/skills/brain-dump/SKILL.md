@@ -1,5 +1,6 @@
 ---
 description: Turn a raw brain dump into a clean, numbered ledger where nothing gets dropped, then act on it. Use when the user dumps several things at once, thinks out loud, dictates a long message, pastes rough notes, or says "brain dump", "here's everything on my mind", "let me get this all out", "a few things", "I've got a lot here", "don't let me forget anything", or sends any message with more than two separate asks buried in it.
+when_to_use: Fire this when the user says anything like "brain dump", "everything on my mind", "let me get this all out", "a few things", "couple things", "dumping this on you", "sort this out", "here is everything", "lot going on", "off the top of my head", "in no particular order", "before I forget", "while I remember", "bear with me", "rambling", "a bunch of things", "several things", "three things", "ok so".
 ---
 
 # Brain Dump

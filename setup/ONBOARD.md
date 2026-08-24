@@ -65,7 +65,7 @@ of real use.
 ### Question 6 of 12: Your specialist pack.
 
 Explain in one line: on top of the twenty skills everyone gets, there is a pack of five built for
-one kind of work. Sales and revenue, operations, finance and money, or nonprofit and mission.
+one kind of work. Sales and revenue, operations, finance and money, or mission and stakeholders.
 Recommend the one that matches their answer to Question 3. Install it with them, then tell them the
 five things it just added.
 

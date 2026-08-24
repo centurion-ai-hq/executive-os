@@ -1,6 +1,7 @@
 ---
 description: "Turn a meeting transcript, recording, or rough notes into a commitment ledger, a read on what the other side actually wants, a clean recap, and a drafted follow-up email. Use when the user says 'here's the transcript', 'we just met with', 'recap this meeting', 'what did we agree to', 'summarize this call', or pastes an Otter export, meeting notes, or a recording transcript. Never sends anything."
 argument-hint: "[paste transcript or notes]"
+when_to_use: Fire this when the user says anything like "here is the transcript", "we just met", "recap this", "what did we agree", "summarize this call", "notes from the call", "the meeting", "what was said", "after the call", "otter", "recording", "minutes".
 ---
 
 # Recap

@@ -1,5 +1,6 @@
 ---
 description: Builds a simple HTML dashboard of the handful of numbers you actually steer by, no more than seven, each with its source and what a bad reading means. Use when the user says "build me a dashboard", "what numbers should I be watching", "give me a one-page view of the business", or asks to track key metrics in one place.
+when_to_use: Fire this when the user says anything like "build me a dashboard", "what should I be watching", "key numbers", "one page view", "track our metrics", "what numbers matter", "scoreboard", "kpis", "at a glance", "how is the business doing".
 ---
 
 # Executive Dashboard

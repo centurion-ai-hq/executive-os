@@ -1,6 +1,7 @@
 ---
 description: "Lists outstanding invoices with their age and value, then drafts a follow-up message at the right escalation level (gentle nudge, firm reminder, final notice) for each. Use when the user says 'who owes us money', 'chase this invoice', 'run collections', 'follow up on unpaid invoices', 'aging report', or pastes an accounts-receivable export. Drafts only, never sends."
 argument-hint: "[paste accounts-receivable or invoice list]"
+when_to_use: Fire this when the user says anything like "who owes us", "unpaid invoices", "chase this invoice", "chase these", "collections", "aging report", "receivables", "they have not paid", "outstanding invoices", "late payment", "overdue".
 ---
 
 # Collections

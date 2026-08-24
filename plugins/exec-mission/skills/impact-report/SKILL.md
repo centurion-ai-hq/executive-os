@@ -1,6 +1,7 @@
 ---
 description: "Turns programme data into a credible impact report for funders and the public, holding a strict line between outputs (what was done) and outcomes (what changed), with every number carrying its source and time period. Use when the user says 'write our impact report', 'annual report', 'impact story for the funder', 'what did we accomplish this year', or has programme data to turn into a public-facing narrative."
 argument-hint: "[paste programme data]"
+when_to_use: Fire this when the user says anything like "impact report", "annual report", "what did we accomplish", "our results", "outcomes report", "report to funders", "show our impact", "year in review", "what changed because of us".
 ---
 
 # Impact Report

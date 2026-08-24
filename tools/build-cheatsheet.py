@@ -27,6 +27,11 @@ SAY = {
  "handoff":("I have to go, save my place","Your place saved, so the next session starts clean"),
  "remember":("Remember this","Written to permanent memory, read back every session"),
  "new-skill":("Turn this into a skill","A permanent one phrase shortcut for what you keep asking"),
+ "attack":("Attack this plan before I commit","Four angles at your plan, then one verdict"),
+ "prove":("Is that actually true","The claim checked against real evidence, or marked unproven"),
+ "check-numbers":("Where did that number come from","Every figure traced to its source, or flagged"),
+ "lesson":("You did that wrong","The correction logged, and made impossible to repeat"),
+ "delegate":("Have the team do this","A researcher, a drafter and a reviewer, then one result"),
  "pipeline":("Review my pipeline","Where deals are stuck, what to call, what to kill"),
  "prospects":("Build me a prospect list","Real scored organisations and named people to approach"),
  "outreach":("Write outreach to X","One personalised first touch, grounded in something true"),
@@ -42,8 +47,8 @@ SAY = {
  "forecast":("Will we run out of money","A base case and a downside, every assumption on its own line"),
  "unit-economics":("What does it cost us per customer","The arithmetic in the open, and your break even"),
  "collections":("Who owes us money","Aged invoices and a drafted chase for each. It never sends"),
- "grants":("Find us grants","Open opportunities ranked, with deadlines verified"),
- "donor-brief":("Prep me for this donor","Their priorities, your ask, and what they will push back on"),
+ "grants":("Find us funding","Open grants and funding ranked, with deadlines verified"),
+ "stakeholder-brief":("Prep me for this call","What they have backed, your ask, and what they will push back on"),
  "board-packet":("Build the board packet","Decisions on page one, the numbers with their story"),
  "impact-report":("Write our impact report","Outcomes kept separate from outputs, every number sourced"),
  "volunteers":("Set up a volunteer programme","Role, onboarding, shifts, and the follow up that brings them back"),
@@ -52,7 +57,7 @@ PACKS = [("exec","The core twenty","Everyone gets these."),
          ("exec-sales","Sales and revenue","If you carry a number."),
          ("exec-ops","Operations","If you run the machine."),
          ("exec-finance","Finance and money","If you watch the cash."),
-         ("exec-nonprofit","Nonprofit and mission","If you serve a mission.")]
+         ("exec-mission","Mission and stakeholders","If you answer to a board, a funder, or a mission.")]
 
 def skills(pack):
     d = ROOT/"plugins"/pack/"skills"

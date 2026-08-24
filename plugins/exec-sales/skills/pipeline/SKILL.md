@@ -1,5 +1,6 @@
 ---
 description: Reviews a sales pipeline and says exactly where it is stuck, what to call this week, and what to kill. Use when the user says "review my pipeline", "what's stuck", "where are my deals stalling", "what should I call about this week", "walk my pipeline", pastes a CRM export or a deal list, or asks what is at risk to this quarter's number.
+when_to_use: Fire this when the user says anything like "my pipeline", "review the pipeline", "deals are stuck", "deal is stuck", "stuck in the pipeline", "stalling", "what should I call about", "this quarter's number", "deal review", "my deals", "what is at risk", "close this month", "forecast the deals".
 ---
 
 # Pipeline Review

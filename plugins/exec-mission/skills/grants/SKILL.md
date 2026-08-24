@@ -1,6 +1,7 @@
 ---
 description: "Finds real, currently open grant opportunities that fit the organisation's mission, size, and geography, and returns a ranked table with funder, amount, deadline, fit reason, and the single biggest reason they might say no. Use when the user says 'find us grants', 'what grants are open', 'grant opportunities', 'should we apply for this', or asks what funding is available right now."
 argument-hint: "[mission area, size, geography]"
+when_to_use: Fire this when the user says anything like "find us grants", "grant opportunities", "what grants are open", "find us funding", "funding opportunities", "apply for funding", "non dilutive", "who funds this kind of work", "grant deadlines", "open applications".
 ---
 
 # Grant Finder

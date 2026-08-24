@@ -1,6 +1,7 @@
 ---
 description: "Answers a real question with sourced evidence, not a guess: searches the web, reads the actual sources, cites every load-bearing claim with a URL, and says plainly what it couldn't find. Use when the user says 'research this', 'look this up', 'find out', 'who is', 'compare X and Y', or asks a market, competitor, pricing, or factual question. Scales from a quick lookup to a full multi-source sweep depending on the question."
 argument-hint: "[the question to research]"
+when_to_use: Fire this when the user says anything like "look this up", "research this", "find out", "who is", "who owns", "dig into", "what is the market", "compare the options out there", "is that true", "verify this", "what do we know about", "background on", "look into".
 ---
 
 # Research

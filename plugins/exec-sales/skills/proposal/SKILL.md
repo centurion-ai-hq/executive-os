@@ -1,5 +1,6 @@
 ---
 description: Turns a discovery conversation into a client-ready proposal covering the problem, deliverables, price, timeline, and exclusions. Use when the user says "write a proposal for", "turn this into a proposal", "draft a proposal", "put together a scope of work", or has just finished describing a discovery conversation with a client.
+when_to_use: Fire this when the user says anything like "write a proposal", "scope of work", "sow", "turn this into a proposal", "quote them", "put together a proposal", "statement of work", "what we would deliver".
 ---
 
 # Proposal Builder

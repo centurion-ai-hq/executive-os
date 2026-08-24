@@ -1,21 +1,22 @@
 ---
-description: "Prepares the executive for a conversation with a specific donor or funder: researches their giving history and stated priorities, connects those priorities to the organisation's actual work, states the ask and the number, and predicts the pushback. Use when the user says 'I'm meeting with', 'prep me for this donor call', 'donor brief', 'what should I know before I call', or names a specific funder or donor ahead of a conversation."
-argument-hint: "[donor or funder name]"
+description: "Prepares the executive for a high-stakes conversation with one specific person who holds something they need: a funder, an investor, a major client, a board member, a partner. Researches what that person has actually backed and what they say they care about, connects it to the organisation's real work, states the ask and the number, and predicts the pushback. Use when the user says 'I am meeting with', 'prep me for this call', 'brief me on this person', 'what should I know before I talk to', or names someone ahead of a conversation that matters."
+argument-hint: "[funder, investor, or major stakeholder name]"
+when_to_use: Fire this when the user says anything like "brief me on this person", "meeting with the funder", "before I talk to them", "who is this person", "what have they backed", "prep me for this call with", "investor meeting", "board member meeting", "what do they care about".
 ---
 
-# Donor Brief
+# Stakeholder Brief
 
-Gets the executive ready for one specific conversation: who this donor is, what they care about,
+Gets the executive ready for one specific conversation: who this stakeholder is, what they care about,
 what to ask for, and what pushback to expect.
 
 ## When this fires
-• The user names a specific donor or funder and a coming conversation: "I'm meeting with X,"
+• The user names a specific funder, investor, or major stakeholder and a coming conversation: "I'm meeting with X,"
   "prep me for the call with Y."
-• The user asks "what should I know before I talk to this donor."
+• The user asks "what should I know before I talk to this stakeholder."
 • Ahead of any ask, renewal conversation, or first meeting with a funder.
 
 ## What you do
-1. Confirm the donor or funder name and the type of conversation (first meeting, renewal, upsell
+1. Confirm the funder, investor, or major stakeholder name and the type of conversation (first meeting, renewal, upsell
    ask, stewardship check-in). The right prep differs by type.
 2. Research their giving history and stated priorities using whatever web search tool is available:
    past grants or gifts, publicly stated focus areas, recent public statements. Cite what you find
@@ -35,11 +36,11 @@ One page: who they are (with sources), what they care about, the connection to t
 work, the specific ask and number, and the predicted pushback. Appendix below for supporting detail.
 
 ## Rules
-• Cite where every fact about the donor came from. An unsourced claim about a person does not
+• Cite where every fact about the stakeholder came from. An unsourced claim about a person does not
   belong in this brief.
 • State the ask as a real number, never a range so wide it avoids commitment.
 • Label predicted pushback as a prediction. It is a best guess based on pattern, not a fact about
   what this person will say.
 • This skill prepares the executive to have the conversation themselves. It never contacts the
-  donor or sends anything on the executive's behalf.
+  stakeholder or sends anything on the executive's behalf.
 • No em dashes. Bullets use •.

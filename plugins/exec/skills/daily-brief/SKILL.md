@@ -1,6 +1,7 @@
 ---
 description: "Produces the one-page morning read: today's schedule with prep notes, the emails that actually need a reply ranked by consequence, deadlines inside 7 days, and the top three things to do today, pulled from calendar, email, and the priority board. Use when the user says 'daily brief', 'morning brief', 'what's on my plate today', 'bring me up to speed', 'catch me up', or starts a session wanting the full picture before diving in. Read-only, never sends or accepts anything."
 argument-hint: "[optional: date or focus area]"
+when_to_use: Fire this when the user says anything like "what is on my plate today", "morning brief", "daily brief", "bring me up to speed", "catch me up", "what is today", "start my day", "what is happening today", "my day", "this morning", "before my first meeting", "brief me".
 ---
 
 # Daily Brief

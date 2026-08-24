@@ -1,5 +1,6 @@
 ---
 description: Drafts one personalised first-touch outreach message, email or a social message, to a single named prospect, grounded in something specific and true about them. Use when the user says "write an outreach message to X", "draft a cold email for", "help me reach out to", "write a LinkedIn message to", or names one prospect they want to approach first.
+when_to_use: Fire this when the user says anything like "outreach message", "cold email", "reach out to", "first touch", "linkedin message", "intro message", "cold call script", "approach them", "get in front of them".
 ---
 
 # First-Touch Outreach Draft

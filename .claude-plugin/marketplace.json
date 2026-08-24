@@ -1,6 +1,8 @@
 {
   "name": "centurion",
-  "owner": { "name": "Centurion AI" },
+  "owner": {
+    "name": "Centurion AI"
+  },
   "metadata": {
     "description": "The Executive OS: a Claude Code foundation for non-technical executives.",
     "version": "1.0.0"
@@ -12,7 +14,13 @@
       "description": "The Executive OS core. Your chief of staff, twenty skills, persistent memory, and a guided setup that interviews you and wires everything up. Start here.",
       "version": "1.0.0",
       "category": "productivity",
-      "keywords": ["executive", "chief-of-staff", "brain-dump", "memory", "onboarding"]
+      "keywords": [
+        "executive",
+        "chief-of-staff",
+        "brain-dump",
+        "memory",
+        "onboarding"
+      ]
     },
     {
       "name": "exec-sales",
@@ -20,7 +28,12 @@
       "description": "Lane pack: sales and revenue. Pipeline review, prospect lists, first-touch outreach, proposals, objection prep.",
       "version": "1.0.0",
       "category": "productivity",
-      "keywords": ["sales", "pipeline", "prospecting", "proposals"]
+      "keywords": [
+        "sales",
+        "pipeline",
+        "prospecting",
+        "proposals"
+      ]
     },
     {
       "name": "exec-ops",
@@ -28,7 +41,12 @@
       "description": "Lane pack: operations. Process audits, vendor comparisons, run checklists, incident reports, steering dashboards.",
       "version": "1.0.0",
       "category": "productivity",
-      "keywords": ["operations", "process", "vendors", "checklists"]
+      "keywords": [
+        "operations",
+        "process",
+        "vendors",
+        "checklists"
+      ]
     },
     {
       "name": "exec-finance",
@@ -36,15 +54,26 @@
       "description": "Lane pack: finance and money. Budget review, subscription ledger, cash forecast, unit economics, collections.",
       "version": "1.0.0",
       "category": "productivity",
-      "keywords": ["finance", "budget", "forecast", "unit-economics"]
+      "keywords": [
+        "finance",
+        "budget",
+        "forecast",
+        "unit-economics"
+      ]
     },
     {
-      "name": "exec-nonprofit",
-      "source": "./plugins/exec-nonprofit",
-      "description": "Lane pack: nonprofit and mission. Grant search, donor briefs, board packets, impact reports, volunteer operations.",
+      "name": "exec-mission",
+      "source": "./plugins/exec-mission",
+      "description": "Lane pack: mission and stakeholders. Grant and funding search, stakeholder briefs, board packets, impact reports, volunteer and community operations.",
       "version": "1.0.0",
       "category": "productivity",
-      "keywords": ["nonprofit", "grants", "donors", "board", "impact"]
+      "keywords": [
+        "mission",
+        "stakeholders",
+        "grants",
+        "board",
+        "impact"
+      ]
     }
   ]
 }

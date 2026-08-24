@@ -1,6 +1,7 @@
 ---
 description: "Captures how the executive actually writes and speaks, then checks any draft against it. Use when the user says 'learn my voice', 'build my voice profile', 'here's how I write', pastes writing samples, or asks 'does this sound like me', 'check this against my voice', 'rewrite this in my voice'. BUILD mode interviews and analyses samples to write memory/voice-profile.md. CHECK mode scores a draft against that profile and rewrites what misses."
 argument-hint: "[build | check] [optional: text to check]"
+when_to_use: Fire this when the user says anything like "does this sound like me", "in my voice", "how I write", "learn my voice", "sound like me", "my writing style", "rewrite this so it sounds", "too formal", "too stiff", "that is not how I talk", "match my tone".
 ---
 
 # Voice

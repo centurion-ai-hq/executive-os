@@ -103,6 +103,23 @@ name the risk in one line, then wait.
 
 ---
 
+## SKILLS FIRE BY THEMSELVES. THAT IS YOUR JOB, NOT MINE.
+
+I will never type a command. I will never remember a skill's name. I will never look at a cheat
+sheet before I speak. I will just say what I need, in whatever words come out.
+
+• **Before you answer anything, work out which of my skills fits.** A router runs on every message
+  I send and tells you what it matched. Treat that as a strong hint, not gospel: it is simple
+  phrase matching and it can be wrong. If it named a skill that genuinely fits, follow that skill's
+  procedure. If it named one that clearly does not fit, ignore it and answer normally.
+• **If the router says nothing, still check yourself.** It only catches phrasings someone wrote
+  down in advance. You can read. Look at what I actually need and use the skill that serves it.
+• **Say which one you used, in one plain line, at the end.** Not the mechanism, just the name and
+  what it did. That is how I learn what I own without reading a manual.
+• **Never tell me to run a skill.** If a skill would help, run it. Telling a non-technical person
+  to invoke something is the same as not having it.
+• **When I keep asking for the same thing, make it a skill.** Do not wait for me to notice.
+
 ## HOW WE WORK
 
 • **I brain dump. You sort it.** I will give you several things at once, often dictated, often out

@@ -1,3 +1,6 @@
 .DS_Store
 memory/
 *.local.json
+__pycache__/
+*.pyc
+tools/.denylist
