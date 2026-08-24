@@ -57,16 +57,6 @@ In this order, and nothing else:
 
 400 words is the absolute ceiling for the page, footer included. Count it for real, every time.
 
-## Getting it every morning
-Two ways to get this without asking each time.
-• Say "morning brief" any morning and it runs right then, same as always.
-• The better way is a standing schedule: a weekday-morning task that runs this before she even
-  opens the laptop. To set that up, say something like "run my daily brief every weekday morning"
-  and let the assistant use whatever scheduling feature this kit has installed to create the
-  recurring task, confirm the time it landed on, and report back once it's set. Recommend the
-  schedule over asking each day: a routine she has to remember to request is one she'll eventually
-  skip.
-
 ## Rules
 • Read-only, always. Never sends, replies, drafts, accepts, declines, or marks anything read on
   any connector. If a step is about to touch one of those, stop and report the brief without it.
@@ -80,3 +70,31 @@ Two ways to get this without asking each time.
 • No em dashes. Bullets use •. Define any technical term the first time it appears.
 • Every day's brief accumulates in `briefs/`, roughly 30 days of history for looking back. Never
   delete an old one without being asked.
+
+## Getting it every morning without asking
+
+Claude Code can schedule this itself. There is no cron, no terminal, and nothing to install.
+
+**To turn it on**, the executive says, in their own words:
+
+> "Run my morning brief every weekday at 7am."
+
+That creates a scheduled task stored at `~/.claude/scheduled-tasks/morning-brief/SKILL.md`.
+
+**Three things to tell them plainly when setting it up, because all three surprise people:**
+
+1. **The schedule runs in their local time**, not UTC. 7am means 7am where they are.
+2. **It only runs while the app is open.** If the app is closed when 7am passes, the brief is
+   generated the next time they open it. For a morning brief this is usually what they want: they
+   open the laptop and it is already waiting. Say it out loud anyway so it is never a surprise.
+3. **Each run starts with no memory of any conversation.** The scheduled prompt has to carry
+   everything it needs on its own: which connectors to read, the output path, the format, and the
+   length ceiling. Never write a scheduled prompt that refers to "the usual" or "as we discussed".
+
+**Write the scheduled prompt self-contained.** It must name: the connectors to read, the file to
+write, the five sections in order, the 400-word ceiling, the read-only boundary, and the honest
+degrading rule. A short scheduled prompt produces a different brief every day, which is the one
+outcome that makes them stop trusting it.
+
+**To change or stop it**, they say "change my morning brief to 6:30" or "stop the morning brief".
+Never edit the task file by hand on their behalf without telling them.

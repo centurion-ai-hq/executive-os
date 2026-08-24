@@ -89,6 +89,19 @@ their screen at all.
 Recommend: yes. Walk them through installing the Claude extension for Chrome and reconnecting. Then
 **prove-it it works** by naming a tab you can actually see. Do not claim it worked. Show them.
 
+### Question 8b: Your morning brief.
+
+Offer it here, while the calendar and email answers are still fresh. Explain in one line: every
+weekday morning a one-page read appears, showing their day, the replies that matter, and the three
+things to do. Recommend: yes, weekdays at 7am.
+
+If yes, set it up with them and say the three things that surprise people: it runs in their local
+time, it only runs while the app is open (so if the laptop was shut it appears when they open it),
+and each run starts fresh, which is why the scheduled instruction has to be written out in full.
+
+Then PROVE it: run the brief once, right now, and open the file. Do not leave them with a schedule
+they have never seen produce anything.
+
 ### Question 9 of 12: What is on your plate right now.
 
 Let them talk. This is the first brain dump, and it is a demonstration as much as a question. Take
@@ -145,8 +158,9 @@ PASS or FAIL with what you actually saw. A FAIL is fine and honest. A false PASS
 | 7 | Email connected | Count unread in the last 24 hours | A real number, or an honest "not connected" |
 | 8 | Browser connected | Name a tab they have open | A real tab title, or an honest "not connected" |
 | 9 | Work folder reachable | List three real filenames | Three real files |
-| 10 | Router is live | Say a plain sentence like "what should I do first" and name the skill that fired | A skill name, not a generic answer |
-| 11 | First win delivered | Point at the artifact from Question 12 | A real file or a real answer |
+| 10 | Morning brief scheduled | Read back the next run time, and open the brief you just generated | A real time and a real file |
+| 11 | Router is live | Say a plain sentence like "what should I do first" and name the skill that fired | A skill name, not a generic answer |
+| 12 | First win delivered | Point at the artifact from Question 12 | A real file or a real answer |
 
 Report the result as a plain table. If anything failed, say what failed, what you tried, and what
 you need from them, in three lines. Never bury a failure.
