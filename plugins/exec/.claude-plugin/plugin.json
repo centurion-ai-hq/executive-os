@@ -1,0 +1,7 @@
+{
+  "name": "exec",
+  "version": "1.0.0",
+  "description": "The Executive OS core: your chief of staff, twenty skills, four-layer memory, and a guided setup interview.",
+  "author": { "name": "Centurion AI" },
+  "keywords": ["executive", "chief-of-staff", "brain-dump", "memory"]
+}

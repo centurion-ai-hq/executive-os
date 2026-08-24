@@ -1,0 +1,7 @@
+{
+  "name": "exec-sales",
+  "version": "1.0.0",
+  "description": "Executive OS lane pack: Sales and revenue. Five skills that install on top of the exec core.",
+  "author": { "name": "Centurion AI" },
+  "keywords": ["executive", "sales"]
+}

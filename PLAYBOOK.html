@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Executive OS Playbook</title>
+<style>
+  :root{
+    --ground:#faf7f0; --ink:#22201c; --soft:#5d574c; --navy:#1b3a5c;
+    --bronze:#9a7b4f; --rule:#e0d8c8; --card:#fffdf8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:Georgia,'Iowan Old Style','Times New Roman',serif;
+    font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased;
+  }
+  .page{max-width:46rem; margin:0 auto; padding:3.2rem 2rem 2.4rem;}
+  .page + .page{border-top:1px solid var(--rule);}
+  header.masthead{border-bottom:2px solid var(--bronze); padding-bottom:1.1rem; margin-bottom:2rem;}
+  .kicker{font-size:.72rem; letter-spacing:.19em; text-transform:uppercase; color:var(--bronze); font-weight:700;}
+  h1{font-size:2.15rem; line-height:1.15; margin:.5rem 0 .4rem; color:var(--navy); font-weight:700;}
+  .sub{color:var(--soft); font-size:1.02rem; margin:0;}
+  h2{font-size:1.32rem; color:var(--navy); margin:2.3rem 0 .2rem; font-weight:700;}
+  h2 + .lede{color:var(--soft); margin:.15rem 0 .9rem; font-size:.97rem;}
+  h3{font-size:1.02rem; margin:1.5rem 0 .35rem; color:var(--ink); font-weight:700;}
+  p{margin:.65rem 0}
+  ul{margin:.55rem 0; padding-left:1.15rem; list-style:none}
+  li{margin:.4rem 0; position:relative}
+  li::before{content:"•"; color:var(--bronze); position:absolute; left:-1.05rem; font-weight:700}
+  .rule{border:0; border-top:1px solid var(--rule); margin:2.1rem 0}
+  .card{
+    background:var(--card); border:1px solid var(--rule);
+    border-left:3px solid var(--navy); padding:1rem 1.25rem; margin:1.1rem 0; border-radius:2px;
+  }
+  .card.warn{border-left-color:var(--bronze)}
+  .card p:first-child{margin-top:0} .card p:last-child{margin-bottom:0}
+  .card .label{font-size:.7rem; letter-spacing:.16em; text-transform:uppercase; color:var(--bronze); font-weight:700; display:block; margin-bottom:.4rem}
+  .say{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace; font-size:.88rem; background:#f3eee2; border:1px solid var(--rule); padding:.12rem .38rem; border-radius:2px; white-space:nowrap}
+  table{width:100%; border-collapse:collapse; margin:1rem 0; font-size:.94rem}
+  th{text-align:left; font-size:.7rem; letter-spacing:.13em; text-transform:uppercase; color:var(--bronze); border-bottom:1.5px solid var(--bronze); padding:.45rem .6rem .35rem}
+  td{padding:.55rem .6rem; border-bottom:1px solid var(--rule); vertical-align:top}
+  td:first-child{white-space:nowrap; font-weight:700; color:var(--navy)}
+  .big{font-size:1.16rem; line-height:1.5; color:var(--navy); font-weight:700; margin:1.1rem 0}
+  .pnum{font-size:.7rem; letter-spacing:.19em; text-transform:uppercase; color:var(--bronze); font-weight:700; margin-bottom:1.6rem}
+  footer{max-width:46rem; margin:0 auto; padding:1.6rem 2rem 3rem; color:var(--soft); font-size:.82rem; border-top:1px solid var(--rule)}
+  @media print{
+    body{background:#fff; font-size:11.5pt}
+    .page{padding:0 0 1rem; max-width:none; page-break-after:always; border:0}
+    .page:last-of-type{page-break-after:auto}
+    footer{page-break-before:avoid}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 ===================== -->
+<section class="page">
+  <header class="masthead">
+    <div class="kicker">Centurion AI · Executive OS</div>
+    <h1>The Playbook</h1>
+    <p class="sub">Three pages. Everything you need to run your chief of staff. Keep this tab open.</p>
+  </header>
+
+  <p class="big">You now have an assistant that remembers, that has your standing preferences in
+  writing, and that will not send anything to a human being without asking you first.</p>
+
+  <h2>The one rule</h2>
+  <p class="lede">If you remember nothing else on this page, remember this.</p>
+
+  <div class="card">
+    <span class="label">Say it in your own words</span>
+    <p>You do not need to learn commands, phrasing, or prompt tricks. Talk the way you would talk to
+    a sharp chief of staff who has been with you a year. Ramble if you want. Dictate if that is
+    faster. It sorts what you said.</p>
+    <p>When you are lost, two phrases always work: <span class="say">what just happened</span> and
+    <span class="say">what should I do next</span>.</p>
+  </div>
+
+  <h2>What it is allowed to do on its own</h2>
+  <ul>
+    <li>Read anything on your computer, and search the web</li>
+    <li>Write, organise, and rewrite files in your work folder</li>
+    <li>Draft anything: emails, memos, proposals, plans, reports</li>
+    <li>Research, analyse, build, and check its own work</li>
+  </ul>
+
+  <h2>What it must ask you first, every single time</h2>
+  <ul>
+    <li>Send anything to another person. <strong>It drafts. You send.</strong></li>
+    <li>Publish or post anything publicly</li>
+    <li>Spend money, or put a dollar figure in front of a named person</li>
+    <li>Delete anything, or overwrite something with no second copy</li>
+  </ul>
+
+  <div class="card warn">
+    <span class="label">This never changes</span>
+    <p>It will never ask you for a password, a card number, or an ID number. If anything ever asks
+    you to paste one into the chat, stop and say so. Nothing in this system needs one.</p>
+  </div>
+
+  <div class="pnum" style="margin-top:2rem">Page 1 of 3</div>
+</section>
+
+<!-- ===================== PAGE 2 ===================== -->
+<section class="page">
+  <div class="pnum">Page 2 of 3 · What to say</div>
+
+  <h2>The five things you will do most</h2>
+  <p class="lede">These cover the large majority of real use. The full list of twenty five is on the
+  cheat sheet.</p>
+
+  <table>
+    <tr><th style="width:11rem">Say something like</th><th>And you get</th></tr>
+    <tr><td>"Here is everything on my mind…"</td><td>Your dump split into a numbered ledger, sorted, nothing dropped, then the urgent parts actually done</td></tr>
+    <tr><td>"What should I do first?"</td><td>Your live priority board, re-ranked on consequence, with what is getting dropped named out loud</td></tr>
+    <tr><td>"What is this?"</td><td>Any term, tool, or acronym in plain English, with why it matters to you</td></tr>
+    <tr><td>"Should I do this?"</td><td>One committed recommendation with the reason, the cost of waiting, and an expiry date</td></tr>
+    <tr><td>"Look at this page with me"</td><td>It reads the website you are on, pulls what you need off it, or walks you through it</td></tr>
+  </table>
+
+  <h2>The brain dump is the point</h2>
+  <p>Most people try to write a tidy request. Do not. The single highest value thing you can do with
+  this system is open your mouth and let everything out at once, out of order, mid sentence, the way
+  it actually sits in your head.</p>
+  <p>It splits what you said into every distinct item, numbers each one so you can both refer back to
+  it, and sorts each into what is being handled now, what is real work for later, what is waiting on
+  someone else, what you have to decide, and what is just context worth keeping. You see that list
+  before it starts, so you can see nothing was lost.</p>
+
+  <div class="card">
+    <span class="label">Why this matters</span>
+    <p>The thing you mention once, in passing, halfway through a sentence, is usually the thing that
+    costs you when it is forgotten. That is the item this is built to catch.</p>
+  </div>
+
+  <h2>When you correct it</h2>
+  <p>Say what was wrong, plainly. It writes the correction to a permanent log and reads that log at
+  the start of every future session. You should not have to give the same correction twice. If you
+  ever do, tell it, and that becomes a correction of its own.</p>
+
+  <h2>When you decide something</h2>
+  <p>The moment you rule on something, name a price, or set a date, it gets written down. You can
+  ask <span class="say">what have we decided</span> at any point and get the whole list back with
+  dates.</p>
+</section>
+
+<!-- ===================== PAGE 3 ===================== -->
+<section class="page">
+  <div class="pnum">Page 3 of 3 · Your memory, and when things go wrong</div>
+
+  <h2>What it remembers, and where</h2>
+  <p class="lede">Five files. You never have to touch them, but they are yours and they are readable.</p>
+
+  <table>
+    <tr><th style="width:9.5rem">What</th><th>Holds</th></tr>
+    <tr><td>Handbook</td><td>How you want to be worked with. Read at the start of every session.</td></tr>
+    <tr><td>Corrections</td><td>Every correction you have given. Added to, never rewritten.</td></tr>
+    <tr><td>Decisions</td><td>Rulings, prices, dates, names. Newest entry wins.</td></tr>
+    <tr><td>The board</td><td>What is open right now and what is next.</td></tr>
+    <tr><td>State</td><td>Where you left off, so the next session picks up clean.</td></tr>
+  </table>
+
+  <p>To change how it works with you, say <span class="say">update my handbook</span> and tell it
+  what you want different. To save your place before you step away, say
+  <span class="say">I have to go, save my place</span>.</p>
+
+  <hr class="rule">
+
+  <h2>When something goes wrong</h2>
+
+  <table>
+    <tr><th style="width:15rem">What you see</th><th>What to say</th></tr>
+    <tr><td>"I am not set up to do that"</td><td>"Check again, then set it up with me." It is built to fix its own gaps, not refuse.</td></tr>
+    <tr><td>It says something is done and it is not</td><td>"Prove it. Run the check and show me what you actually saw."</td></tr>
+    <tr><td>It forgot something you told it</td><td>"Read my handbook and my corrections, then answer again."</td></tr>
+    <tr><td>It gave you a list of options</td><td>"Pick one and tell me why." It is meant to commit, not present a menu.</td></tr>
+    <tr><td>The answer is too long</td><td>"Bottom line it." Or "give me three bullets."</td></tr>
+    <tr><td>You lost the thread</td><td>"Where are we?" It reads the board back to you.</td></tr>
+  </table>
+
+  <hr class="rule">
+
+  <h2>The habit that makes this compound</h2>
+  <p>Once a week, when you catch yourself asking for the same kind of thing a third time, say
+  <span class="say">turn this into a skill</span>. It writes a permanent one phrase shortcut for
+  that exact task, tests it in front of you, and tells you the phrase that now triggers it.</p>
+  <p>That is how this stops being a tool you were given and starts being a system you own.</p>
+
+  <div class="card">
+    <span class="label">Your next move</span>
+    <p>Open the cheat sheet, pick one skill you have not used, and use it on something real today.
+    Not a test. Real work. That is the only way the first week sticks.</p>
+  </div>
+</section>
+
+<footer>
+  Centurion AI · Executive OS v1.0 · Three pages, about 1,050 words.<br>
+  Companion: the one page skills cheat sheet.
+</footer>
+
+</body>
+</html>

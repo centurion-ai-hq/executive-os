@@ -1,0 +1,7 @@
+{
+  "name": "exec-finance",
+  "version": "1.0.0",
+  "description": "Executive OS lane pack: Finance and money. Five skills that install on top of the exec core.",
+  "author": { "name": "Centurion AI" },
+  "keywords": ["executive", "finance"]
+}
