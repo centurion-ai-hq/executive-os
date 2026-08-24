@@ -44,8 +44,32 @@ say("every skill is distinguishable in the roster", not thin, str([t[:40] for t 
 
 # A roster that lists one name twice with two different descriptions is worse than omitting it:
 # the model is asked to choose between two things it has no way to tell apart.
-import collections
-names = [d.name for d in rt.skill_dirs()]
-dupes = {k: v for k, v in collections.Counter(names).items() if v > 1}
-say("no duplicate skill names in the roster", not dupes, str(dupes))
+#
+# This has to exercise the real discovery function against a real collision. An earlier version
+# checked the kit's own folders for duplicate names, which cannot collide by construction, so it
+# passed whether the dedup existed or not. It was caught by deleting the dedup and watching the
+# check still pass.
+import collections, tempfile, os
+with tempfile.TemporaryDirectory() as tmp:
+    t = pathlib.Path(tmp)
+    for pack in ("packA", "packB"):                      # same skill name in two packs
+        d = t/pack/"skills"/"collide"
+        d.mkdir(parents=True)
+        (d/"SKILL.md").write_text(f"---\ndescription: from {pack}\n---\nbody\n")
+    # A FRESH module: rt.skill_dirs was replaced above with a kit-only stub, so calling it here
+    # would test the stub rather than the code that ships. This is the exact trap that made the
+    # first version of this check pass while the dedup was deleted.
+    sp2 = importlib.util.spec_from_file_location("router_probe", R/"plugins/exec/hooks/router.py")
+    probe = importlib.util.module_from_spec(sp2); sp2.loader.exec_module(probe)
+    real_home = pathlib.Path.home
+    os.environ["CLAUDE_PLUGIN_ROOT"] = str(t/"packA")
+    pathlib.Path.home = staticmethod(lambda: t/"nonexistent-home")   # isolate from this machine
+    try:
+        found = [d.name for d in probe.skill_dirs()]
+    finally:
+        pathlib.Path.home = real_home
+        os.environ.pop("CLAUDE_PLUGIN_ROOT", None)
+    dupes = {k: v for k, v in collections.Counter(found).items() if v > 1}
+    say("discovery deduplicates colliding skill names", not dupes and found.count("collide") == 1,
+        f"saw {found}")
 sys.exit(0 if ok else 1)
