@@ -61,19 +61,30 @@ So a hook runs on every single message and does two things:
    skills, each with a one line job, arrive attached to what you wrote. The model then matches on
    meaning rather than on wording. This is the part that generalises, because people do not speak
    from a list.
-2. **It also runs plain phrase matching** against 513 recorded trigger phrases. When that fires
-   with high confidence it attaches the matched skill's full procedure too, so nothing needs to be
-   looked up.
+2. **It also runs plain phrase matching** against 519 recorded trigger phrases, in two bands. A
+   confident hit attaches that skill's full procedure, so nothing needs looking up. An unsure hit
+   is passed along as a named aside and nothing more. This matters: phrase matching is wrong often
+   enough that a wrong answer delivered confidently would be worse than no answer at all.
 
 Roughly 900 tokens per message, about 70 milliseconds, no model call in the hook itself. It fails
 open: if it breaks, the session carries on without it.
 
-**Honest measurement.** The phrase-matching layer alone gets 35% top-1 on a held-out test of 120
-executive sentences written by someone who never saw the trigger phrases. On a test written by the
-same author as the triggers it gets 96.6%, which is exactly why that second number is not the one
-quoted here. Where the phrase layer speaks up with high confidence, it is right 70.8% of the time.
-Recall is carried by layer one, the roster, which is measured separately against a real model in
-`tools/eval-model-results.md`. Run `python3 tools/eval-router.py` to reproduce all of it.
+**Honest measurement.** Two layers, measured separately, because they do different jobs.
+
+The **phrase layer** gets 35% top-1 on a held-out test of 120 executive sentences written by
+someone who never saw the trigger phrases. On a test written by the same author as the triggers it
+gets 96.6%, which is precisely why that number is not the one quoted here: an evaluation whose
+cases and whose rules share an author measures nothing. Where the phrase layer speaks up
+confidently it is right 70.8% of the time, and where it is unsure it says so rather than guessing.
+
+The **roster layer** is what carries the work, and it can only be measured by a real model rather
+than a script. On the same 120 held-out sentences it scored 120/120. That number is real but it is
+not a victory: the run that produced it also found that six skills were reduced to meaningless
+roster lines by a bug, and the test set happened not to cover five of them. That bug is fixed and
+gated against; see `tools/eval-model-results.md` for the caveats in full, written by the same run
+that produced the 100%.
+
+Reproduce with `python3 tools/eval-router.py` and `bash tools/verify.sh`.
 
 ## The safety line
 

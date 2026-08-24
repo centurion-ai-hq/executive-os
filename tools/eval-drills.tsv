@@ -1,0 +1,52 @@
+Before I sign off on this budget, I want someone to poke holes in it from every angle - facts, failure case, whether it's overbuilt, whether the math actually works.	attack
+We're about to approve the Q4 expansion plan and I need it stress tested hard before Friday's board call.	attack
+Can you tear into this strategy doc before I bring it to the partners? I want the worst-case argument laid out too.	attack
+This budget looks clean but I want it hit from every side - is it too much, are the numbers real, what's the case it flops.	attack
+Marketing keeps saying the campaign lifted signups 40 percent and I want that checked against the actual data before we brag about it in the board deck.	prove
+You told me the migration was done last week - I need that confirmed against something real before I tell the client it's live.	prove
+Our ops lead swears the new vendor cut costs 15 percent, but I want that run down against the invoices before I repeat it anywhere.	prove
+The report says churn dropped this quarter. Before I put that in front of investors, somebody needs to trace it back to the source.	prove
+I've got the pricing memo open and I'm about to greenlight it, but every dollar figure in here needs to trace back to where it actually came from.	check-numbers
+This forecast has six figures on it and I'm not signing off until each one's origin is nailed down.	check-numbers
+Before this deck goes to the investors, walk every figure back to its source so nothing gets caught out later.	check-numbers
+There are a dozen percentages on this slide and I need to know where each one came from before I use it in the pitch.	check-numbers
+This is the third time you've quoted a price we froze months ago - I need that to actually stop happening, not just get apologized for again.	lesson
+We've been over this before about sending drafts without asking first, and it keeps slipping through, so make it stick this time.	lesson
+I corrected this same formatting mistake two weeks ago and here it is again - I need a real fix, not another sorry.	lesson
+You keep mixing up which account this data belongs to, and I've flagged it before. Make sure it actually holds this time.	lesson
+This competitor teardown is way too big for one pass - get some people digging, someone drafting, and someone else checking it before it lands on my desk.	delegate
+I need the vendor comparison researched, written up, and reviewed by a second set of eyes, not just knocked out in one go.	delegate
+Split the onboarding rewrite across a few hands - research the gaps, draft the fix, then have someone else check it before it comes back to me.	delegate
+This is too much for one shot. Get it researched, drafted, and reviewed in stages instead of trying to answer it all at once.	delegate
+I really like this expansion idea and that's exactly why I need someone to argue hard against it before I fall in love with it completely.	critic
+Poke every hole you can find in this hiring plan - I'm attached to it and that's the problem, so give me a straight yes or no at the end.	critic
+Before the board votes on this budget Friday, run it through the full gauntlet - facts, failure case, bloat, and whether the money actually works.	attack
+This restructuring plan needs the whole workup before I approve it: check the assumptions, find the failure mode, see if it's overbuilt, and stress the numbers.	attack
+I've got the leadership offsite Thursday and need the room, the agenda, and what outcome I'm walking out with.	prep
+Get me ready for tomorrow's quarterly review - what's the setup, who's in the room, and what am I trying to land.	prep
+I'm sitting down with Marcus Whitfield next week and need to know exactly what he's going to want from me walking in.	stakeholder-brief
+Before I call Deborah Ashcroft tomorrow, tell me what she's holding that I need and how she tends to push back.	stakeholder-brief
+Every month our invoice reconciliation eats two full days and half the time something's wrong at the end - I want to know why.	process-audit
+The onboarding checklist keeps producing the same three mistakes over and over and I want to know where it's breaking down.	process-audit
+The Tuesday deploy took down billing for four hours and I need an honest writeup of exactly what happened.	incident
+We shipped the wrong pricing to eleven customers last night and I need a straight account of how that got out the door.	incident
+Someone in the meeting kept saying 'attribution modeling' and I nodded along but I have no idea what that actually means.	decode
+What does 'burn multiple' mean? Just give me the quick version so I'm not lost next time it comes up.	decode
+I want to actually understand how our ad spend attribution works, not just the one-liner - walk me through it properly over a few sessions.	teach-me
+Sit me down and go through how cap tables work from the ground up, I've got time this week and I want it to actually stick.	teach-me
+Put together something clean I can hand Marcus summarizing where the partnership stands right now.	document
+I need a one-pager I can send the board explaining why we're pausing the hire.	document
+Write down how we close the books each month so Priya can run it without me walking her through it live.	sop
+I want the vendor onboarding steps captured somewhere so whoever takes this over next quarter doesn't have to ask me.	sop
+Just tell me straight - do we renew the Simmons contract or not, I've been sitting on this too long.	decide
+Give me a yes or no on the office lease. I need to stop going back and forth on this one thing.	decide
+I've got about nine things hanging over me right now and no idea which one to touch first - sort it out for me.	priorities
+Everything's piling up at once. Tell me what actually matters this week and what can wait.	priorities
+Okay so the lease is up, Priya's asking about her raise, the vendor thing is still unresolved, and I forgot to call the accountant back - just help me sort through all this.	brain-dump
+I've got like six half-finished thoughts rattling around, some about hiring, some about the product, just catch it all and organize it.	brain-dump
+I want to get us from where we are now to a working pilot by November - lay out the steps to get there.	roadmap
+Give me the path from zero to a hundred paying customers, in order, so I know what comes first.	roadmap
+Make sure this sticks for good - we never say 'affordable' in outbound copy again.	remember
+Going forward, log that Priya prefers async updates over calls, that's permanent from now on.	remember
+I'm out for the rest of today, jot down exactly where this build stands so tomorrow doesn't start from scratch.	handoff
+Before I close this out for the night, capture what's done and what's still hanging so the next session isn't guessing.	handoff
