@@ -35,7 +35,8 @@ Two things and you're done.
    [PASTE THE FOLDER PATH SHE READ YOU]
 
 2. Copy everything between the two lines below and paste it in. Press Enter once.
-   It will finish up and ask you three quick things. Nothing technical.
+   It finishes up and asks you three quick things. Nothing technical, and
+   nothing to download.
 
 [YOUR NAME]
 
@@ -59,19 +60,20 @@ the three interview questions at the end.
    date it expires. Short answers skip it. I want to be able to decide from the
    bottom of your message without reading the top.
 
-2. Check I have a handoff skill installed and that it works. Say "save my place"
-   to yourself, confirm it writes memory/state.md, and show me the file. If it is
-   missing, install it from the kit.
+2. Check I have a handoff skill installed and that it works. Say "save my
+   place" to yourself, confirm it writes memory/state.md, and show me the file.
 
 3. Finish my setup. We stopped at the question about what eats my week. Ask me
-   only the questions we did not get to, not the ones I already answered. Read
-   what I already told you out of my handbook first so you do not ask twice.
+   only the questions we did not get to. Read what I already told you out of my
+   handbook first so you do not ask me twice.
 
-4. When the questions are done, run the verification pass and show me the table
-   with a real pass or fail on every line and what you actually saw. If something
-   failed, tell me straight and tell me what you need from me.
+4. Run the verification pass and show me the table, with a real pass or fail on
+   every line and what you actually saw. If something failed, say so straight.
 
 5. Then do one real thing off my list, start to finish, so I see it work once.
+
+6. Last, tell me this one sentence and nothing more: when I am ready for my
+   travel agent, I just say "build my travel agent" and you will handle it.
 
 Go. Start with the five line summary of where we were.
 

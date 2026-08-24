@@ -27,6 +27,7 @@ SAY = {
  "handoff":("I have to go, save my place","Your place saved, so the next session starts clean"),
  "remember":("Remember this","Written to permanent memory, read back every session"),
  "new-skill":("Turn this into a skill","A permanent one phrase shortcut for what you keep asking"),
+ "build-agent":("Build me a travel agent","A new specialist worker with its own memory, wired in and proven"),
  "model-routing":("Which one are you using","The right-sized model picked for you, explained when it matters"),
  "one-question":("Write something up for me","One sharp question back when the ask is too thin to aim at"),
  "pressure-test":("Attack this plan before I commit","Four angles at your plan, then one verdict"),

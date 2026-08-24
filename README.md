@@ -33,7 +33,7 @@ If Claude Code is already installed, skip straight to the two lines:
 | | |
 |---|---|
 | **A chief of staff** | Named by you. Holds the whole picture, tells you what you are walking into, does the work. |
-| **27 core skills** | Twenty everyday skills plus five full sequences. Plus 5 more from the one lane pack that matches your work. |
+| **28 core skills** | Twenty everyday skills plus five full sequences. Plus 5 more from the one lane pack that matches your work. |
 | **Real memory** | A handbook, a corrections log, a decisions log, a live priority board, and session state. It stops forgetting. |
 | **Automatic firing** | You never invoke anything. Every message you send arrives with your full skill list and the matching procedure already attached. |
 | **Answer-first voice** | An output style that leads with the answer, bans filler, and ends anything long enough to decide from with a bottom line and a committed recommendation. Set globally at setup. |
@@ -122,7 +122,7 @@ Pick one during setup. You can add another later.
 | `START-HERE.md` | The block you paste into Claude. Read this first. |
 | `PLAYBOOK.html` | Three pages. How to run your chief of staff. |
 | `CHEAT-SHEET.html` | One page. Every skill and what to say to fire it. |
-| `plugins/exec/` | The core: 27 skills, 4 agents, 3 hooks including the router. |
+| `plugins/exec/` | The core: 28 skills, 4 agents, 3 hooks including the router. |
 | `plugins/exec-*/` | The four lane packs. Five skills each, you install one. |
 | `setup/ONBOARD.md` | The twelve question setup interview. |
 | `setup/CLAUDE-TEMPLATE.md` | The handbook template the interview fills in. |

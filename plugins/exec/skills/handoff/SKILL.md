@@ -1,6 +1,6 @@
 ---
 description: "Saving the state of work in progress before stopping. Not a standing fact to remember. Also reads that state back cleanly when picking up, including on a different machine or app. Use when the user says 'save my place', 'I have to go', 'let us pick this up later', 'where were we', 'continue where we left off', 'I am switching to the desktop app', or a session is ending with work unfinished."
-when_to_use: Fire this when the user says anything like "save my place", "I have to go", "pick this up later", "pick this up tomorrow", "where were we", "continue where we left off", "running out of time", "stop here for now", "come back to this", "wrap up for today", "switching to the desktop app", "switching machines", "finish this later".
+when_to_use: Fire this when the user says anything like "save my place", "i have to go", "pick this up later", "pick this up tomorrow", "where were we", "continue where we left off", "running out of time", "stop here for now", "come back to this", "wrap up for today".
 ---
 
 # Handoff

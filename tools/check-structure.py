@@ -16,7 +16,7 @@ for p in sorted(ondisk):
     j = R/"plugins"/p/".claude-plugin"/"plugin.json"
     say(f"{p}: manifest valid", j.exists() and json.loads(j.read_text())["name"] == p)
 counts = {p: len(list((R/"plugins"/p/"skills").glob("*/SKILL.md"))) for p in sorted(ondisk)}
-say("exec core has 27 skills", counts.get("exec") == 27, str(counts))
+say("exec core has 28 skills", counts.get("exec") == 28, str(counts))
 say("every lane pack has 5", all(v == 5 for k, v in counts.items() if k != "exec"), str(counts))
 # Quoted and unquoted YAML scalars are both valid, so match on the value, not the raw line.
 drills = [f for f in R.glob("plugins/*/skills/*/SKILL.md")

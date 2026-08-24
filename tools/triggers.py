@@ -83,6 +83,10 @@ TRIGGERS = {
   "every time I ask", "same thing again", "can you just remember to do this",
   "save this as something", "make this automatic", "do this every time"],
 
+"build-agent": ["build my travel agent", "build me an agent", "i want an agent that",
+  "set up a specialist", "make me an agent for", "build the consulting agent",
+  "an agent for my business", "an agent that handles my travel"],
+
 # ---- full sequences: one word fires a whole sequence -----------------------
 "pressure-test": ["i want you to test this", "pressure test this", "test this before i commit",
   "press on this", "attack this plan", "grill this", "before i commit", "rip this apart",
