@@ -35,7 +35,7 @@ TRIGGERS = {
   "tear this apart", "push back on this", "argue against", "is this actually a good idea",
   "what could go wrong", "stress test this", "be honest with me", "do not agree with me",
   "what is wrong with this", "am I fooling myself"],
-"panel": ["run the panel", "second opinion", "what would a board say", "pressure test this",
+"panel": ["run the panel", "second opinion", "what would a board say", "my board of advisors",
   "real disagreement", "different perspectives", "multiple viewpoints", "get me other opinions",
   "what would other people say", "I want an argument", "not another yes"],
 "roadmap": ["how do we get from here to there", "build me a roadmap", "what is the plan",
@@ -45,8 +45,7 @@ TRIGGERS = {
   "help me understand", "tutor me", "I want to actually understand", "how does this work",
   "show me how", "I am new to this", "explain it properly", "go slower"],
 "research": ["look this up", "research this", "find out", "who is", "who owns", "dig into",
-  "what is the market", "compare the options out there", "is that true", "verify this",
-  "what do we know about", "background on", "look into"],
+  "what is the market", "compare the options out there", "is that true", "what do we know about", "background on", "look into"],
 
 # ---- working --------------------------------------------------------------
 "browse": ["look at this page", "this website", "this site", "on my screen", "what I am looking at",
@@ -84,11 +83,12 @@ TRIGGERS = {
   "every time I ask", "same thing again", "can you just remember to do this",
   "save this as something", "make this automatic", "do this every time"],
 
-# ---- battle drills: one word fires a whole sequence -----------------------
-"attack": ["attack this plan", "grill this", "before I commit", "pressure this plan",
-  "rip this apart", "attack it", "war game this", "what would kill this",
-  "am I about to make a mistake", "sanity check this plan", "shoot holes in the plan"],
-"prove": ["prove it", "is that actually true", "verify this", "did that really happen",
+# ---- full sequences: one word fires a whole sequence -----------------------
+"pressure-test": ["i want you to test this", "pressure test this", "test this before i commit",
+  "press on this", "attack this plan", "grill this", "before i commit", "rip this apart",
+  "war game this", "what would kill this", "am i about to make a mistake",
+  "sanity check this plan", "shoot holes in this", "poke at this before i sign"],
+"prove-it": ["prove it", "is that actually true", "verify this", "did that really happen",
   "are you sure", "show me the evidence", "back that up", "how do you know", "says who",
   "I do not believe that", "check that claim"],
 "check-numbers": ["check the numbers", "where did that number come from", "is that number right",
@@ -96,12 +96,19 @@ TRIGGERS = {
   "what is that based on", "where does that figure come from", "that percent",
   "does that add up", "check the math", "check the maths", "run the numbers again",
   "that figure looks wrong", "verify these figures", "recalculate"],
-"lesson": ["you did that wrong", "I already told you", "stop doing that", "lesson learned",
+"lesson-learned": ["lesson learned", "lessons learned", "you did that wrong", "I already told you", "stop doing that", "lesson learned",
   "that is not what I asked", "you keep doing this", "we talked about this",
   "do not do that again", "you got that wrong"],
-"delegate": ["have the team do this", "run this properly", "put your people on it",
+"delegate-to-agents": ["delegate this", "delegate to agents", "put a researcher on it",
+  "get your researchers on this", "have the team do this", "run this properly", "put your people on it",
   "do this end to end", "this is a big one", "give this the full treatment",
   "hand this to the team", "get the team on this", "do the whole thing"],
+
+"model-routing": ["which model are you using", "is this worth the expensive one",
+  "am I overpaying", "why is this slow", "use the good one for this", "do not overthink this",
+  "is this worth the top model", "how much is this costing", "use the cheap one"],
+"one-question": ["write something up for", "look into this", "handle this", "deal with that",
+  "put something together", "sort this out for me", "take care of this", "do the thing"],
 
 # ---- lane: sales ----------------------------------------------------------
 "pipeline": ["my pipeline", "review the pipeline", "deals are stuck", "deal is stuck", "stuck in the pipeline",

@@ -1,6 +1,6 @@
 ---
-description: Battle drill. Hands a whole multi-part job to the agent team, chief-of-staff, researcher, drafter, and reviewer, instead of doing it in one pass, and returns the finished work plus two lines on what each worker contributed. Use when the user says "have the team do this", "run this properly", "this is a big one", "put your people on it", "do this end to end".
-when_to_use: Fire this when the user says anything like "have the team do this", "run this properly", "put your people on it", "do this end to end", "this is a big one", "give this the full treatment", "hand this to the team", "get the team on this", "do the whole thing".
+description: Full sequence. Hands a whole multi-part job to the agent team, chief-of-staff, researcher, drafter, and reviewer, instead of doing it in one pass, and returns the finished work plus two lines on what each worker contributed. Use when the user says "have the team do this", "run this properly", "this is a big one", "put your people on it", "do this end to end".
+when_to_use: Fire this when the user says anything like "delegate this", "delegate to agents", "put a researcher on it", "get your researchers on this", "have the team do this", "run this properly", "put your people on it", "do this end to end", "this is a big one", "give this the full treatment", "hand this to the team", "get the team on this", "do the whole thing".
 ---
 
 # Delegate

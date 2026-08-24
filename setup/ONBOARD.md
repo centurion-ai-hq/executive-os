@@ -87,7 +87,7 @@ information off it, and walk them through a site they are stuck in. Without it, 
 their screen at all.
 
 Recommend: yes. Walk them through installing the Claude extension for Chrome and reconnecting. Then
-**prove it works** by naming a tab you can actually see. Do not claim it worked. Show them.
+**prove-it it works** by naming a tab you can actually see. Do not claim it worked. Show them.
 
 ### Question 9 of 12: What is on your plate right now.
 
@@ -134,11 +134,11 @@ When the twelfth question is done:
 Do not report setup as complete without running these. For each one, run the check, then report
 PASS or FAIL with what you actually saw. A FAIL is fine and honest. A false PASS is not.
 
-| # | Check | How you prove it | Expected |
+| # | Check | How you prove-it it | Expected |
 |---|---|---|---|
 | 1 | Handbook is live | Read `~/.claude/CLAUDE.md` and quote their agent's name back | Their chosen name appears |
 | 2 | No placeholders left | Search the handbook for `[` and `]` | Zero remaining |
-| 3 | Skills are loaded | Count the skills available | 25 core, plus 5 from their lane pack |
+| 3 | Skills are loaded | Count the skills available | 27 core, plus 5 from their lane pack |
 | 4 | Memory files exist | List `memory/` | board, decisions, state all present |
 | 5 | Board is real | Read `memory/board.md` back | Their Question 9 items are in it |
 | 6 | Calendar connected | Name their next real appointment | A real event, or an honest "not connected" |

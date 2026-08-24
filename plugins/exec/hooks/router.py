@@ -156,7 +156,7 @@ def one_liner(desc, limit=112, floor=45):
     A roster line carrying enough to tell this skill from its nearest neighbour.
 
     Two ways this has been wrong already, both worth keeping in mind:
-      1. Taking only the first sentence reduced every battle drill to "Battle drill.", which
+      1. Taking only the first sentence reduced every full-sequence skill to "Full sequence.", which
          describes nothing.
       2. Stopping as soon as a length floor was met dropped the SECOND sentence, which is exactly
          where the discriminating clause lives ("Not a one-off document."). The positive half of
@@ -173,7 +173,7 @@ def one_liner(desc, limit=112, floor=45):
             break                                  # trigger phrases belong to the matcher, not here
         # FLOOR means "the minimum before stopping is permitted", NOT "stop once reached". Read the
         # other way round it drops the second sentence, which is where the discriminating clause
-        # lives. Read this way, a short opener like "Battle drill." always pulls in what follows,
+        # lives. Read this way, a short opener like "Full sequence." always pulls in what follows,
         # overflowing the budget if it must, and truncation trims the tail.
         if len(out) + 1 + len(part) > limit and len(out) >= floor:
             break

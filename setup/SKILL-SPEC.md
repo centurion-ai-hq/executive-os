@@ -108,6 +108,7 @@ exact paths, relative to the executive's working folder:
 | Decisions | `memory/decisions.md` | Rulings, prices, dates, names. One line each, append-only. |
 | Board | `memory/board.md` | The live priority list. Rewritten whenever priorities move. |
 | Session state | `memory/state.md` | Where we are right now. Rewritten each session. |
+| Advisors | `memory/board-of-advisors.md` | Whose judgement the executive wants on a hard call. |
 
 If a skill captures a decision, it writes one line to `memory/decisions.md` in this format:
 

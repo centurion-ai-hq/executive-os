@@ -1,6 +1,6 @@
 ---
 description: "Several conflicting viewpoints argued separately then reconciled by a chairman. Use when the user wants disagreement between advisors, not one opinion. Use when the user says "run the panel", "get me a second opinion", "what would a board say", "pressure-test this decision", "I want real disagreement on this", or is weighing a decision big enough to want more than one point of view."
-when_to_use: Fire this when the user says anything like "run the panel", "second opinion", "what would a board say", "pressure test this", "real disagreement", "different perspectives", "multiple viewpoints", "get me other opinions", "what would other people say", "I want an argument", "not another yes".
+when_to_use: Fire this when the user says anything like "run the panel", "second opinion", "what would a board say", "my board of advisors", "real disagreement", "different perspectives", "multiple viewpoints", "get me other opinions", "what would other people say", "I want an argument", "not another yes".
 ---
 
 # Panel
@@ -12,6 +12,28 @@ Five operators argue the call from five different jobs. One chairman calls it.
 • A decision is big enough that one point of view is not enough: pricing, hiring, a pivot, a new offer, a partnership.
 • The user says "run the panel", "second opinion", "what would a board say", or names wanting real disagreement, not another yes.
 • The user suspects everyone around them (including the assistant) is just agreeing with them.
+
+
+## First time only: build her own board
+
+Do not assume the five seats. The default archetypes below are a starting point, not her board.
+The first time this skill runs, spend two minutes making it hers, then never ask again.
+
+Ask, one at a time, waiting between each:
+
+1. "Whose judgement do you actually trust when a call is hard? Real people you know, people you
+   have worked for, or public figures you rate. Name up to five."
+2. For each name: "What do they always push on? What is the question they would ask first?"
+3. "Who is missing? Every board has a blind spot. Is there a view nobody in that room holds?"
+
+Write the result to `memory/board-of-advisors.md`: one block per seat, the name or the role, the
+lens they argue from, and the question they always ask. Read that file every time this skill runs
+afterwards. If it does not exist, run this section first.
+
+If she would rather not name anyone, use the defaults below and say so in one line. Never stall
+the work waiting for her to build a board.
+
+## The default seats, used only until she has her own
 
 ## What you do
 

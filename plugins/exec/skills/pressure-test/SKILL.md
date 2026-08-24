@@ -1,6 +1,6 @@
 ---
-description: "Battle drill. The full four-stage review before approving a plan. Not a single opinion. Use when the user says "attack this plan", "grill this", "before I commit", "pressure this", or is about to approve a plan, a budget, or a strategy."
-when_to_use: Fire this when the user says anything like "attack this plan", "grill this", "before I commit", "pressure this plan", "rip this apart", "attack it", "war game this", "what would kill this", "am I about to make a mistake", "sanity check this plan", "shoot holes in the plan".
+description: "Full sequence. The full four-stage review before approving a plan. Not a single opinion. Use when the user says "pressure-test this plan", "grill this", "before I commit", "pressure this", or is about to approve a plan, a budget, or a strategy."
+when_to_use: Fire this when the user says anything like "i want you to test this", "pressure test this", "test this before i commit", "press on this", "attack this plan", "grill this", "before i commit", "rip this apart", "war game this", "what would kill this", "am i about to make a mistake", "sanity check this plan", "shoot holes in this", "poke at this before i sign".
 ---
 
 # Attack
@@ -10,7 +10,7 @@ Four angles hit the plan in order, then one report, so nothing gets missed and n
 ## When this fires
 
 • The user is about to approve a plan, a budget, or a strategy and wants it pressure-tested first.
-• The user says "attack this plan", "grill this", "before I commit", or "pressure this".
+• The user says "pressure-test this plan", "grill this", "before I commit", or "pressure this".
 • A plan has been sitting in the conversation and no one has actually argued against it yet.
 
 ## What you do

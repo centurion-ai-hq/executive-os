@@ -1,5 +1,5 @@
 ---
-description: Battle drill. Verifies a claim before you act on it, states it precisely, finds the primary evidence rather than someone's summary of it, runs an actual check where one can be run, and returns PROVED, DISPROVED, or UNPROVEN with the evidence attached. Use when the user says "prove it", "is that actually true", "verify this", "did that really happen", "are you sure".
+description: Full sequence. Verifies a claim before you act on it, states it precisely, finds the primary evidence rather than someone's summary of it, runs an actual check where one can be run, and returns PROVED, DISPROVED, or UNPROVEN with the evidence attached. Use when the user says "prove-it it", "is that actually true", "verify this", "did that really happen", "are you sure".
 when_to_use: Fire this when the user says anything like "prove it", "is that actually true", "verify this", "did that really happen", "are you sure", "show me the evidence", "back that up", "how do you know", "says who", "I do not believe that", "check that claim".
 ---
 
@@ -13,7 +13,7 @@ claim made in this same conversation.
 • Someone told the user something and they want it checked before acting on it.
 • A report, an email, or a document states something as fact.
 • A prior turn in this session claimed a task is done, a number is right, or something exists.
-• The user says "prove it", "is that actually true", "verify this", "are you sure".
+• The user says "prove-it it", "is that actually true", "verify this", "are you sure".
 
 ## What you do
 

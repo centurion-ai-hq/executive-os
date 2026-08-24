@@ -19,7 +19,7 @@ because the history of what went wrong is the point.
 ## 0000-00-00: Never claim something works without checking
 **What happened:** Assistants report work as finished when they have not run it.
 **The rule now:** Before saying anything is done, working, or correct, run the actual check and
-show the result. If it cannot be checked this session, say so and say what would prove it.
+show the result. If it cannot be checked this session, say so and say what would prove-it it.
 
 ## 0000-00-00: Never send anything on the user's behalf
 **What happened:** An assistant sent an email that was meant to be a draft.

@@ -1,5 +1,5 @@
 ---
-description: Battle drill. Re-derives every number in a document back to its original source before it drives a decision, where each figure came from, how it was calculated, and whether recalculating it from the source reproduces it, and never trusts a field label on its own. Use when a document carrying figures is about to drive a decision, and on "check the numbers", "where did that number come from", "is that number right".
+description: Full sequence. Re-derives every number in a document back to its original source before it drives a decision, where each figure came from, how it was calculated, and whether recalculating it from the source reproduces it, and never trusts a field label on its own. Use when a document carrying figures is about to drive a decision, and on "check the numbers", "where did that number come from", "is that number right".
 when_to_use: Fire this when the user says anything like "check the numbers", "where did that number come from", "is that number right", "where did that come from", "where did this come from", "how did you get that", "what is that based on", "where does that figure come from", "that percent", "does that add up", "check the math", "check the maths", "run the numbers again", "that figure looks wrong", "verify these figures", "recalculate".
 ---
 

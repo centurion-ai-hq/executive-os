@@ -18,13 +18,13 @@ echo "  control: grep works ($control files match a known term)"
 if [ -f tools/.denylist ]; then
   while IFS= read -r t; do
     [ -z "$t" ] && continue
-    chk "no leak: $t" "$($G -ril "$t" . --exclude-dir=.git --exclude-dir=tools --exclude-dir=__pycache__ 2>/dev/null | wc -l | tr -d ' ')"
+    chk "no leak: $t" "$($G -ril "$t" . --exclude-dir=.git --exclude-dir=__pycache__ --exclude=.denylist --exclude=verify.sh 2>/dev/null | wc -l | tr -d ' ')"
   done < tools/.denylist
 else
   echo "  SKIP  sanitization sweep (tools/.denylist absent, this is expected for anyone but the author)"
 fi
-chk "no absolute home paths" "$($G -rn "/Users/" . --exclude-dir=.git --exclude-dir=tools --exclude-dir=__pycache__ 2>/dev/null | wc -l | tr -d ' ')"
-chk "zero em dashes" "$($G -rl $'—' . --exclude-dir=.git --exclude-dir=tools --exclude-dir=__pycache__ 2>/dev/null | wc -l | tr -d ' ')"
+chk "no absolute home paths" "$($G -rn "/Users/" . --exclude-dir=.git --exclude-dir=__pycache__ --exclude=.denylist --exclude=verify.sh 2>/dev/null | wc -l | tr -d ' ')"
+chk "zero em dashes" "$($G -rl $'—' . --exclude-dir=.git --exclude-dir=__pycache__ --exclude=.denylist --exclude=verify.sh 2>/dev/null | wc -l | tr -d ' ')"
 
 python3 tools/check-structure.py; chk "structure" $?
 python3 tools/mutation-sweep.py >/dev/null 2>&1; chk "gates discriminate (mutation sweep)" $?
