@@ -61,7 +61,7 @@ So a hook runs on every single message and does two things:
    skills, each with a one line job, arrive attached to what you wrote. The model then matches on
    meaning rather than on wording. This is the part that generalises, because people do not speak
    from a list.
-2. **It also runs plain phrase matching** against 519 recorded trigger phrases, in two bands. A
+2. **It also runs plain phrase matching** against 543 recorded trigger phrases, in two bands. A
    confident hit attaches that skill's full procedure, so nothing needs looking up. An unsure hit
    is passed along as a named aside and nothing more. This matters: phrase matching is wrong often
    enough that a wrong answer delivered confidently would be worse than no answer at all.
