@@ -21,17 +21,24 @@ def skill_dirs():
     here = pathlib.Path(__file__).resolve()
     roots = []
     plug_root = os.environ.get("CLAUDE_PLUGIN_ROOT")
-    base = pathlib.Path(plug_root).parent if plug_root else here.parent.parent.parent
-    if base.exists():
-        roots += [p for p in base.glob("*/skills") if p.is_dir()]
     for extra in (pathlib.Path.home()/".claude"/"skills", pathlib.Path(".claude")/"skills"):
         if extra.is_dir():
             roots.append(extra)
-    out = []
+    base = pathlib.Path(plug_root).parent if plug_root else here.parent.parent.parent
+    if base.exists():
+        roots += [p for p in base.glob("*/skills") if p.is_dir()]
+    # Deduplicate by skill NAME, not by path. A user who writes their own skill sharing a name
+    # with one from a pack would otherwise appear twice in the roster, and a roster listing the
+    # same name twice with two different descriptions is worse than not listing it: the model has
+    # to choose between two things it cannot tell apart. Personal skills are listed first and win
+    # the tie, matching Claude Code's own precedence, where a personal skill overrides a plugin's.
+    out, seen = [], set()
     for r in roots:
         for d in sorted(r.iterdir()):
-            if (d/"SKILL.md").is_file():
-                out.append(d)
+            if d.name in seen or not (d/"SKILL.md").is_file():
+                continue
+            seen.add(d.name)
+            out.append(d)
     return out
 
 

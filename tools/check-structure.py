@@ -41,4 +41,11 @@ rt = importlib.util.module_from_spec(sp); sp.loader.exec_module(rt)
 rt.skill_dirs = lambda: [d for d in sorted(R.glob("plugins/*/skills/*")) if (d/"SKILL.md").is_file()]
 thin = [r.strip() for r in rt.roster() if len(r.split(": ", 1)[1]) < 45]
 say("every skill is distinguishable in the roster", not thin, str([t[:40] for t in thin[:4]]))
+
+# A roster that lists one name twice with two different descriptions is worse than omitting it:
+# the model is asked to choose between two things it has no way to tell apart.
+import collections
+names = [d.name for d in rt.skill_dirs()]
+dupes = {k: v for k, v in collections.Counter(names).items() if v > 1}
+say("no duplicate skill names in the roster", not dupes, str(dupes))
 sys.exit(0 if ok else 1)
