@@ -224,7 +224,20 @@ def main():
         "genuinely none fits, answering normally is correct and no skill should be forced.",
     ]
 
-    STRONG = 9.0     # a multi-word verbatim trigger hit, not a coincidence
+    # STRONG is the line between "attach this skill's whole procedure" and "mention it as an
+    # aside". It is 9.0 because that is what the data said, measured across both honest test sets:
+    #
+    #   threshold   held-out precision     adversarial precision
+    #      7.0      60.9% (46 fires)       29.2% (24 fires)
+    #      8.0      65.9% (41 fires)       30.4% (23 fires)
+    #      9.0      70.8% (24 fires)       63.6% (11 fires)   <- chosen
+    #     10.0      80.0% ( 5 fires)       50.0% ( 2 fires)   <- sample too small to mean anything
+    #     11.0+     never fires at all
+    #
+    # Below 9 precision collapses on hard cases, which is exactly where a confident wrong answer
+    # does damage. Above 9 it barely fires, so the apparent gain rests on a handful of cases.
+    # Reproduce the table with tools/eval-router.py before moving this number.
+    STRONG = 9.0
     if hits and hits[0][0] >= STRONG:
         top = hits[0]
         parts += [
