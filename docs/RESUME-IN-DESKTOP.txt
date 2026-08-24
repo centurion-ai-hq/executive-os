@@ -1,0 +1,96 @@
+═══════════════════════════════════════════════════════════════════════════════
+FOR MARISSA. Two steps. Read her step 1 over the phone, then send her step 2.
+═══════════════════════════════════════════════════════════════════════════════
+
+
+STEP 1 ── SAY THIS TO HER ON THE PHONE ────────────────────────────────────────
+
+"You're still in the black terminal window. Click into it, type this one line,
+and press Enter. Then read me back the folder path it prints."
+
+She types:
+
+    save my place, I'm switching to the desktop app, and print my folder path in big letters
+
+
+That is it for the terminal. It saves everything she has already answered, writes
+down where she stopped, and prints the folder she is working in.
+
+WRITE DOWN THE FOLDER PATH SHE READS YOU. She will need it in step 2 and she will
+not remember it.
+
+If it asks her anything, tell her to answer "just save it" and it will stop.
+
+
+STEP 2 ── EMAIL HER THIS ──────────────────────────────────────────────────────
+
+Subject: Last bit, in the app this time
+
+Hi Marissa,
+
+Two things and you're done.
+
+1. Open the Claude Code desktop app. When it asks which folder, choose this one:
+
+   [PASTE THE FOLDER PATH SHE READ YOU]
+
+2. Copy everything between the two lines below and paste it in. Press Enter once.
+   It will finish up and ask you three quick things. Nothing technical.
+
+[YOUR NAME]
+
+------------------------------ COPY FROM HERE ------------------------------
+
+Pick up where we left off. Read memory/state.md first and tell me in five lines
+what we were doing, what is done, and what is left. Then keep going.
+
+Do all of the following without asking me to approve each step. Only stop for
+the three interview questions at the end.
+
+1. Set my output style to Executive, globally, so it applies everywhere and not
+   just this folder. The style file ships with the kit at
+   setup/output-styles/executive.md. Copy it to ~/.claude/output-styles/ and set
+   "outputStyle": "Executive" in ~/.claude/settings.json. Do not overwrite the
+   rest of that file, only add or change that one key. Tell me in one line what
+   changed and read the setting back to prove it took.
+
+   From now on, every answer of yours over 100 words ends with a bottom line
+   block: what is true, what you recommend, why, what it costs me to wait, and a
+   date it expires. Short answers skip it. I want to be able to decide from the
+   bottom of your message without reading the top.
+
+2. Check I have a handoff skill installed and that it works. Say "save my place"
+   to yourself, confirm it writes memory/state.md, and show me the file. If it is
+   missing, install it from the kit.
+
+3. Finish my setup. We stopped at the question about what eats my week. Ask me
+   only the questions we did not get to, not the ones I already answered. Read
+   what I already told you out of my handbook first so you do not ask twice.
+
+4. When the questions are done, run the verification pass and show me the table
+   with a real pass or fail on every line and what you actually saw. If something
+   failed, tell me straight and tell me what you need from me.
+
+5. Then do one real thing off my list, start to finish, so I see it work once.
+
+Go. Start with the five line summary of where we were.
+
+------------------------------ COPY TO HERE --------------------------------
+
+
+WHY IT IS SPLIT THIS WAY ──────────────────────────────────────────────────────
+
+She types nine words into the terminal. Everything heavy happens in the app,
+where she can see it and where pasting a block is easy.
+
+The terminal line does not finish the setup and does not write the "setup
+complete" marker, so the app picks up mid-interview rather than thinking it is
+already done and skipping the last questions.
+
+The one thing that can go wrong is the folder. If the desktop app opens somewhere
+else, it will not find her answers and will start over. That is why you take the
+path down the phone rather than trusting her to find it later.
+
+If she opens the wrong folder and it starts from question one: have her say
+"stop, I already did most of this, find my folder" and it will look for it.
+═══════════════════════════════════════════════════════════════════════════════

@@ -36,6 +36,7 @@ If Claude Code is already installed, skip straight to the two lines:
 | **27 core skills** | Twenty everyday skills plus five full sequences. Plus 5 more from the one lane pack that matches your work. |
 | **Real memory** | A handbook, a corrections log, a decisions log, a live priority board, and session state. It stops forgetting. |
 | **Automatic firing** | You never invoke anything. Every message you send arrives with your full skill list and the matching procedure already attached. |
+| **Answer-first voice** | An output style that leads with the answer, bans filler, and ends anything long enough to decide from with a bottom line and a committed recommendation. Set globally at setup. |
 | **A guided setup** | Twelve questions, one at a time, applied as you answer, verified at the end with proof rather than a claim. |
 | **A three page playbook** | [PLAYBOOK.html](PLAYBOOK.html), plus a one page [cheat sheet](CHEAT-SHEET.html). |
 

@@ -34,6 +34,8 @@ A human can also read this table to hand-edit their own setup later. That is del
 |---|---|---|
 | `~/.claude/CLAUDE.md` | `setup/CLAUDE-TEMPLATE.md` | The handbook, read every session |
 | `~/.claude/LESSONS.md` | `setup/LESSONS-seed.md` | Corrections, append only |
+| `~/.claude/output-styles/executive.md` | `setup/output-styles/executive.md` | Answer-first voice and the bottom line block |
+| `~/.claude/settings.json` | edited, one key | `"outputStyle": "Executive"` |
 | `memory/board.md` | Question 9 | What is open |
 | `memory/decisions.md` | new, empty | Rulings, append only |
 | `memory/state.md` | new, empty | Session state |
