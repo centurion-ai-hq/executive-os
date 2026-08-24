@@ -1,5 +1,5 @@
 ---
-description: "A recurring workflow that keeps wasting time or producing errors, every time it runs. For something that broke once, this is the wrong skill. Use when the user says "audit this process", "where is the time going", "what should we automate first", "walk me through fixing this workflow", or describes a recurring process that feels slow or error-prone."
+description: "A recurring workflow that wastes time every time it runs. Not a one-off breakage. Use when the user says "audit this process", "where is the time going", "what should we automate first", "walk me through fixing this workflow", or describes a recurring process that feels slow or error-prone."
 when_to_use: Fire this when the user says anything like "where is the time going", "audit this process", "what should we automate", "this takes too long", "too many steps", "where are the bottlenecks", "streamline this", "why does this take so long", "wasted time", "manual work".
 ---
 

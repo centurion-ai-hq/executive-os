@@ -1,5 +1,5 @@
 ---
-description: "Saving the state of work in progress because the user is stopping for now. Not for storing a standing fact. Use when the user says 'I have to go, save my place', 'let's pick this up later', 'where were we', or a new session needs to catch up on what already happened."
+description: "Saving the state of work in progress before stopping. Not a standing fact to remember. Use when the user says 'I have to go, save my place', 'let's pick this up later', 'where were we', or a new session needs to catch up on what already happened."
 when_to_use: Fire this when the user says anything like "save my place", "I have to go", "pick this up later", "pick this up tomorrow", "where were we", "continue where we left off", "running out of time", "stop here for now", "come back to this", "wrap up for today".
 ---
 

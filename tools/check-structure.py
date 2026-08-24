@@ -42,6 +42,18 @@ rt.skill_dirs = lambda: [d for d in sorted(R.glob("plugins/*/skills/*")) if (d/"
 thin = [r.strip() for r in rt.roster() if len(r.split(": ", 1)[1]) < 45]
 say("every skill is distinguishable in the roster", not thin, str([t[:40] for t in thin[:4]]))
 
+# Eight pairs are close enough that a positive description alone will not separate them. Each of
+# those sixteen skills must carry an explicit negative clause INSIDE the roster's truncation
+# budget. It is not enough for the clause to exist in the file: if it falls past the cut it does
+# not exist as far as the model is concerned, which is how it was wrong the first two times.
+PAIRS = [("document", "sop"), ("brain-dump", "roadmap"), ("decide", "priorities"),
+         ("critic", "attack"), ("prep", "stakeholder-brief"), ("process-audit", "incident"),
+         ("decode", "teach-me"), ("remember", "handoff")]
+lines = {r.strip().split(":")[0]: r.strip() for r in rt.roster()}
+weak = [n for a, b in PAIRS for n in (a, b)
+        if n in lines and " Not " not in lines[n] and "wrong skill" not in lines[n]]
+say("confusable pairs carry a visible negative clause", not weak, str(weak))
+
 # A roster that lists one name twice with two different descriptions is worse than omitting it:
 # the model is asked to choose between two things it has no way to tell apart.
 #

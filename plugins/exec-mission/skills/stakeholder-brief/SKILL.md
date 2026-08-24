@@ -1,5 +1,5 @@
 ---
-description: "Readiness for ONE specific named person who holds something the user needs: a funder, an investor, a board member, a major client. Use when the user says 'I am meeting with', 'prep me for this call', 'brief me on this person', 'what should I know before I talk to', or names someone ahead of a conversation that matters."
+description: "Readiness for ONE named person: a funder, investor, or board member. Not a whole meeting. Use when the user says 'I am meeting with', 'prep me for this call', 'brief me on this person', 'what should I know before I talk to', or names someone ahead of a conversation that matters."
 argument-hint: "[funder, investor, or major stakeholder name]"
 when_to_use: Fire this when the user says anything like "brief me on this person", "meeting with the funder", "before I talk to them", "who is this person", "what have they backed", "prep me for this call with", "investor meeting", "board member meeting", "what do they care about".
 ---

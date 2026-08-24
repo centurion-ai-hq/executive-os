@@ -151,22 +151,33 @@ def route(prompt):
     return hits[:MAX_OUT]
 
 
-def one_liner(desc, limit=104, floor=48):
+def one_liner(desc, limit=112, floor=45):
     """
-    A roster line with enough substance to tell this skill from its neighbour.
+    A roster line carrying enough to tell this skill from its nearest neighbour.
 
-    Taking only the first sentence looks tidy and silently destroys any skill whose description
-    opens with a short label. Six of forty-five reduced to "Battle drill." and "The tutor.",
-    which are not descriptions of anything. Keep adding sentences until the line carries real
-    signal, then cap it.
+    Two ways this has been wrong already, both worth keeping in mind:
+      1. Taking only the first sentence reduced every battle drill to "Battle drill.", which
+         describes nothing.
+      2. Stopping as soon as a length floor was met dropped the SECOND sentence, which is exactly
+         where the discriminating clause lives ("Not a one-off document."). The positive half of
+         a description is rarely what separates two neighbours; the negative half is.
+
+    So: keep adding whole sentences while they fit the budget. Never stop early.
     """
-    parts = re.split(r"(?<=[.!?])\s+", desc.strip())
-    out = ""
-    for part in parts:
-        if out and len(out) >= floor:
+    parts = [x for x in re.split(r"(?<=[.!?])\s+", desc.strip()) if x]
+    if not parts:
+        return ""
+    out = parts[0]
+    for part in parts[1:]:
+        if part.lower().startswith("use when"):
+            break                                  # trigger phrases belong to the matcher, not here
+        # FLOOR means "the minimum before stopping is permitted", NOT "stop once reached". Read the
+        # other way round it drops the second sentence, which is where the discriminating clause
+        # lives. Read this way, a short opener like "Battle drill." always pulls in what follows,
+        # overflowing the budget if it must, and truncation trims the tail.
+        if len(out) + 1 + len(part) > limit and len(out) >= floor:
             break
-        out = (out + " " + part).strip() if out else part
-    out = re.sub(r"^(Battle drill\.|The tutor\.)\s*", r"\1 ", out).strip()
+        out = out + " " + part
     return out[:limit].rstrip().rstrip(",;")
 
 

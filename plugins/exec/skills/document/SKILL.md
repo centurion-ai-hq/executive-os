@@ -1,5 +1,5 @@
 ---
-description: "One finished written artifact to hand to a named person: a one pager, a memo, a brief. Not a process someone else will follow. Use when the user says 'write me a one pager', 'draft a memo', 'turn this into a proposal', 'make this a client brief', 'I need something I can send', or hands over notes, a decision, or a call that needs to leave the session as a document."
+description: "One finished artifact to hand someone: a one pager, memo, brief. Not a process others follow. Use when the user says 'write me a one pager', 'draft a memo', 'turn this into a proposal', 'make this a client brief', 'I need something I can send', or hands over notes, a decision, or a call that needs to leave the session as a document."
 argument-hint: "[what the document is for, and who reads it]"
 when_to_use: Fire this when the user says anything like "one pager", "write me a memo", "I need something I can send", "hand to them", "put this in a document", "make this presentable", "turn this into a memo", "a brief", "something formal", "leave behind", "write this up properly", "a doc", "a pdf".
 ---

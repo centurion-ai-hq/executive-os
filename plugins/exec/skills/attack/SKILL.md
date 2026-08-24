@@ -1,5 +1,5 @@
 ---
-description: "Battle drill. The full four-stage review of a plan the user is about to approve: the facts, the case that it fails, whether it is oversized, and whether the money works. Use when the user says "attack this plan", "grill this", "before I commit", "pressure this", or is about to approve a plan, a budget, or a strategy."
+description: "Battle drill. The full four-stage review before approving a plan. Not a single opinion. Use when the user says "attack this plan", "grill this", "before I commit", "pressure this", or is about to approve a plan, a budget, or a strategy."
 when_to_use: Fire this when the user says anything like "attack this plan", "grill this", "before I commit", "pressure this plan", "rip this apart", "attack it", "war game this", "what would kill this", "am I about to make a mistake", "sanity check this plan", "shoot holes in the plan".
 ---
 

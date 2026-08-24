@@ -1,5 +1,5 @@
 ---
-description: "One specific open decision, called. For ranking everything currently open, this is the wrong skill. Use when the user says "what should I do", "what's the call", "help me decide", "should I do this", "which one do I pick", "make the call", or hands over a decision they've been sitting on."
+description: "One specific open decision, called. Not a ranking of everything currently open. Use when the user says "what should I do", "what's the call", "help me decide", "should I do this", "which one do I pick", "make the call", or hands over a decision they've been sitting on."
 when_to_use: Fire this when the user says anything like "should I do this", "should we do this", "should I go ahead", "what is the call", "help me decide", "which one do I pick", "make the call", "yes or no", "go or no go", "I have been sitting on this", "torn between", "what would you do", "your recommendation", "pull the trigger", "commit to this", "decision".
 ---
 

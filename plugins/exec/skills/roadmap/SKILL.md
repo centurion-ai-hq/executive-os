@@ -1,5 +1,5 @@
 ---
-description: Turn a goal into an ordered step-by-step plan from where things stand now to the goal, with an owner, a checkable finish line, and a rough duration on every step. Use when the user says "how do we get from here to there", "build me a roadmap", "what's the plan to get to X", "sequence this out", "what order do these need to happen in", or hands over a goal with no plan yet.
+description: "One goal broken into ordered steps to reach it. Not several unrelated things at once. Use when the user says "how do we get from here to there", "build me a roadmap", "what's the plan to get to X", "sequence this out", "what order do these need to happen in", or hands over a goal with no plan yet."
 when_to_use: Fire this when the user says anything like "how do we get from here to there", "build me a roadmap", "what is the plan", "sequence this", "what order", "steps to get to", "path to", "how do we reach", "plan to get to", "get us to", "milestones", "phases", "what comes first".
 ---
 

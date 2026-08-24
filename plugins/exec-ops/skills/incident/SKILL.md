@@ -1,5 +1,5 @@
 ---
-description: "One specific thing that broke on one specific occasion, written up honestly. For a workflow that is chronically slow, this is the wrong skill. Use when the user says "write up what happened", "do an incident report", "we need to explain this to the client", "post-mortem this", or something has broken and needs a clean written account."
+description: "One specific thing that broke once, written up honestly. Not a chronically slow workflow. Use when the user says "write up what happened", "do an incident report", "we need to explain this to the client", "post-mortem this", or something has broken and needs a clean written account."
 when_to_use: Fire this when the user says anything like "write up what happened", "incident report", "post mortem", "what went wrong", "explain this to the client", "we messed up", "root cause", "it broke", "outage", "how do we explain this".
 ---
 
