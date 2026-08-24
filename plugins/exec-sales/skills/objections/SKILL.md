@@ -1,6 +1,6 @@
 ---
 description: Preps you for the pushback coming in a specific deal, the five likely objections ranked by damage, with a real answer to each. Use when the user says "prep me for objections on", "what pushback should I expect", "help me prepare for this meeting", "what will they push back on", or names a deal or meeting coming up where resistance is expected.
-when_to_use: Fire this when the user says anything like "what pushback", "objections", "what will they say", "how do I answer", "they will push back", "what are they going to ask", "prepare for resistance", "how do I handle it when they say".
+when_to_use: Fire this when the user says anything like "what pushback", "objections", "what will they say", "how do i answer", "they will push back", "what are they going to ask", "prepare for resistance", "how do i handle it when they say".
 ---
 
 # Objection Prep

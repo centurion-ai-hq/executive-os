@@ -1,6 +1,6 @@
 ---
 description: Compares tools or vendors on the criteria that actually decide it, with real current pricing and one committed recommendation. Use when the user says "compare these tools", "which vendor should I pick", "help me choose between", "is X worth it versus Y", or names two or more options they're deciding between.
-when_to_use: Fire this when the user says anything like "which vendor", "compare these tools", "which one should I pick", "worth it versus", "is it worth it", "should we switch", "evaluate these options", "which software", "which platform", "buy or build".
+when_to_use: Fire this when the user says anything like "which vendor", "compare these tools", "which one should i pick", "worth it versus", "is it worth it", "should we switch", "evaluate these options", "which software", "which platform", "buy or build".
 ---
 
 # Vendor Comparison

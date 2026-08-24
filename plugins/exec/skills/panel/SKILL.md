@@ -1,6 +1,6 @@
 ---
 description: "Several conflicting viewpoints argued separately then reconciled by a chairman. Use when the user wants disagreement between advisors, not one opinion. Use when the user says "run the panel", "get me a second opinion", "what would a board say", "pressure-test this decision", "I want real disagreement on this", or is weighing a decision big enough to want more than one point of view."
-when_to_use: Fire this when the user says anything like "run the panel", "second opinion", "what would a board say", "my board of advisors", "real disagreement", "different perspectives", "multiple viewpoints", "get me other opinions", "what would other people say", "I want an argument", "not another yes".
+when_to_use: Fire this when the user says anything like "run the panel", "second opinion", "what would a board say", "my board of advisors", "real disagreement", "different perspectives", "multiple viewpoints", "get me other opinions", "what would other people say", "i want an argument", "not another yes".
 ---
 
 # Panel

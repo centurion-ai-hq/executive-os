@@ -172,6 +172,10 @@ TRIGGERS = {
   "we need people to help", "recruit helpers", "volunteer roles", "community helpers"],
 }
 
+# Deduplicate at load, order preserved. Editing this table by hand and by script has produced
+# duplicates twice; a structural guard is cheaper than catching it by eye every time.
+TRIGGERS = {k: list(dict.fromkeys(p.lower().strip() for p in v)) for k, v in TRIGGERS.items()}
+
 if __name__ == "__main__":
     import sys
     n = sum(len(v) for v in TRIGGERS.values())

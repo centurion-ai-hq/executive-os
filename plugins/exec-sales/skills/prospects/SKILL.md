@@ -1,6 +1,6 @@
 ---
 description: Builds a ranked, fit-scored list of real prospect organisations and named contacts from a target description. Use when the user says "build me a prospect list", "find me leads", "who should I target", "research prospects in [industry]", gives an industry, size, and geography, or asks for a list of companies to go after.
-when_to_use: Fire this when the user says anything like "prospect list", "find me leads", "who should I target", "who should I be targeting", "build me a list", "companies to go after", "new business", "lead list", "who to approach", "find companies".
+when_to_use: Fire this when the user says anything like "prospect list", "find me leads", "who should i target", "who should i be targeting", "build me a list", "companies to go after", "new business", "lead list", "who to approach", "find companies".
 ---
 
 # Prospect List Builder

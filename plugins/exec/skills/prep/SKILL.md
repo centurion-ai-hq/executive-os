@@ -1,7 +1,7 @@
 ---
 description: "Readiness for a whole meeting: the room, the agenda, the outcome. Not one named person. Use when the user says 'I have a call with', 'prep me for', 'meeting with X tomorrow', 'what do I need to know before', or 'pitch to'. Produces a one-page prep sheet readable in five minutes."
 argument-hint: "[who and what the meeting is about]"
-when_to_use: Fire this when the user says anything like "I have a call with", "prep me for", "meeting with", "before I walk in", "pitch to", "what do I need to know before", "getting ready for", "call tomorrow", "meeting tomorrow", "who am I meeting", "brief me on this meeting".
+when_to_use: Fire this when the user says anything like "i have a call with", "prep me for", "meeting with", "before i walk in", "pitch to", "what do i need to know before", "getting ready for", "call tomorrow", "meeting tomorrow", "who am i meeting", "brief me on this meeting".
 ---
 
 # Prep

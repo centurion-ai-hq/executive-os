@@ -1,6 +1,6 @@
 ---
 description: "Storing a fact, ruling, price or preference permanently. Not the state of work in progress. Use when the user says "remember this", "don't forget", "make a note of that", "from now on", "always do X", "never do Y", "I decided", "that's confirmed", "we're going with", "stop doing that", or states any ruling, price, date, name, or preference worth keeping."
-when_to_use: Fire this when the user says anything like "remember this", "do not forget", "make a note", "from now on", "always do", "never do", "I decided", "that is confirmed", "we are going with", "locked in", "note that", "keep that in mind", "for the record", "going forward".
+when_to_use: Fire this when the user says anything like "remember this", "do not forget", "make a note", "from now on", "always do", "never do", "i decided", "that is confirmed", "we are going with", "locked in", "note that", "keep that in mind", "for the record", "going forward".
 ---
 
 # Remember

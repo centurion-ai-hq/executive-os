@@ -1,7 +1,7 @@
 ---
 description: "A topic taught step by step over several exchanges. Not a one-shot definition. Use when the user says 'teach me', 'walk me through', 'I want to learn X', 'explain this step by step', 'tutor me on this', 'should we build this', or wants to actually understand a topic rather than get a one-off answer."
 argument-hint: "[topic, tool, or technique to learn]"
-when_to_use: Fire this when the user says anything like "teach me", "walk me through", "I want to learn", "step by step", "help me understand", "tutor me", "I want to actually understand", "how does this work", "show me how", "I am new to this", "explain it properly", "go slower".
+when_to_use: Fire this when the user says anything like "teach me", "walk me through", "i want to learn", "step by step", "help me understand", "tutor me", "i want to actually understand", "how does this work", "show me how", "i am new to this", "explain it properly", "go slower".
 ---
 
 # Teach Me

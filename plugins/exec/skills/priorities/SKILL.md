@@ -1,6 +1,6 @@
 ---
 description: "Everything open, ranked, with what to do next and what is dropped. Not one single decision. Use when the user says "what should I do first", "what's on my plate", "reprioritize", "what's open", "where are we", "what do I owe people", "what am I forgetting", "add this to the list", or when several competing tasks land at once and something has to give."
-when_to_use: Fire this when the user says anything like "what should I do first", "what is on my plate", "what matters most", "reprioritize", "re prioritise", "what is open", "where are we on everything", "what do I owe", "what am I forgetting", "add this to the list", "I am underwater", "what actually matters", "too much going on", "what can wait", "what should I drop", "my list", "the board", "my plate", "what should I be doing", "what do I do now", "what is next", "where do I start".
+when_to_use: Fire this when the user says anything like "what should i do first", "what is on my plate", "what matters most", "reprioritize", "re prioritise", "what is open", "where are we on everything", "what do i owe", "what am i forgetting", "add this to the list", "i am underwater", "what actually matters", "too much going on", "what can wait", "what should i drop", "my list", "the board", "my plate", "what should i be doing", "what do i do now", "what is next", "where do i start".
 ---
 
 # Priorities

@@ -1,7 +1,7 @@
 ---
 description: "One term or concept explained plainly in a single answer. Not a topic taught over time. Use when the user says 'decode this', 'break it down', 'what is X', 'what does that mean', 'explain this to me', 'in plain English', 'ELI5', 'I don't understand this term', or drops an acronym, a tool name, or a technical word they need translated before they can decide something."
 argument-hint: "[the term, tool, or concept to explain]"
-when_to_use: Fire this when the user says anything like "what is", "what does that mean", "explain this", "in plain english", "break it down", "eli5", "I do not understand", "what does it do", "never heard of", "what is the difference", "translate this", "jargon", "acronym", "decode this", "dumb it down", "simply put".
+when_to_use: Fire this when the user says anything like "what is", "what does that mean", "explain this", "in plain english", "break it down", "eli5", "i do not understand", "what does it do", "never heard of", "what is the difference", "translate this", "jargon", "acronym", "decode this", "dumb it down", "simply put".
 ---
 
 # Decode

@@ -1,7 +1,7 @@
 ---
 description: "Turns something the user keeps asking for by hand into a permanent skill that fires on one phrase from then on, tested live before it ships. Use when the user says 'I keep asking you for this', 'make this a standing thing', 'turn this into a skill', 'can you just remember to do this', or repeats the same kind of request for the second or third time."
 argument-hint: "[the task you keep repeating]"
-when_to_use: Fire this when the user says anything like "turn this into a skill", "I keep asking you", "make this a standing thing", "every time I ask", "same thing again", "can you just remember to do this", "save this as something", "make this automatic", "do this every time".
+when_to_use: Fire this when the user says anything like "turn this into a skill", "i keep asking you", "make this a standing thing", "every time i ask", "same thing again", "can you just remember to do this", "save this as something", "make this automatic", "do this every time".
 ---
 
 # New Skill

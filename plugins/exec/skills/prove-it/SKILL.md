@@ -1,6 +1,6 @@
 ---
 description: Full sequence. Verifies a claim before you act on it, states it precisely, finds the primary evidence rather than someone's summary of it, runs an actual check where one can be run, and returns PROVED, DISPROVED, or UNPROVEN with the evidence attached. Use when the user says "prove-it it", "is that actually true", "verify this", "did that really happen", "are you sure".
-when_to_use: Fire this when the user says anything like "prove it", "is that actually true", "verify this", "did that really happen", "are you sure", "show me the evidence", "back that up", "how do you know", "says who", "I do not believe that", "check that claim".
+when_to_use: Fire this when the user says anything like "prove it", "is that actually true", "verify this", "did that really happen", "are you sure", "show me the evidence", "back that up", "how do you know", "says who", "i do not believe that", "check that claim".
 ---
 
 # Prove

@@ -1,6 +1,6 @@
 ---
 description: "Picks the right-sized AI model for each piece of work, automatically, and explains the choice in one line when it matters. Use when the user says "which model are you using", "is this worth the expensive one", "am I overpaying", "why is this slow", "use the good one for this", "don't overthink this one", or "is this worth the top model"."
-when_to_use: Fire this when the user says anything like "which model are you using", "is this worth the expensive one", "am I overpaying", "why is this slow", "use the good one for this", "do not overthink this", "is this worth the top model", "how much is this costing", "use the cheap one".
+when_to_use: Fire this when the user says anything like "which model are you using", "is this worth the expensive one", "am i overpaying", "why is this slow", "use the good one for this", "do not overthink this", "is this worth the top model", "how much is this costing", "use the cheap one".
 ---
 
 # Model Routing

@@ -1,6 +1,6 @@
 ---
 description: Full sequence. Turns a correction into something that catches itself next time, writes it to the corrections log in the standard format, identifies the pattern behind the mistake, checks whether this same thing has been corrected before, and proposes a permanent handbook change once it has happened twice. Use when the user says "you did that wrong", "I already told you", "stop doing that", "lesson-learned learned", "that is not what I asked for".
-when_to_use: Fire this when the user says anything like "lesson learned", "lessons learned", "you did that wrong", "I already told you", "stop doing that", "lesson learned", "that is not what I asked", "you keep doing this", "we talked about this", "do not do that again", "you got that wrong".
+when_to_use: Fire this when the user says anything like "lesson learned", "lessons learned", "you did that wrong", "i already told you", "stop doing that", "that is not what i asked", "you keep doing this", "we talked about this", "do not do that again", "you got that wrong".
 ---
 
 # Lesson
