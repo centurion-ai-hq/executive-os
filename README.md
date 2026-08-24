@@ -57,7 +57,7 @@ the miss and would never type the command anyway.
 
 So a hook runs on every single message and does two things:
 
-1. **It puts the whole menu in front of the model, every turn.** All thirty of your installed
+1. **It puts the whole menu in front of the model, every turn.** All 32 of your installed
    skills, each with a one line job, arrive attached to what you wrote. The model then matches on
    meaning rather than on wording. This is the part that generalises, because people do not speak
    from a list.
@@ -127,7 +127,7 @@ Pick one during setup. You can add another later.
 | `setup/CLAUDE-TEMPLATE.md` | The handbook template the interview fills in. |
 | `setup/EDIT-MANIFEST.md` | Which answer edits which file. Also readable by a human. |
 | `tools/build-cheatsheet.py` | Regenerates the cheat sheet from the skills on disk. |
-| `tools/triggers.py` | The 513 phrases that fire each skill. Edit here, then re-inject. |
+| `tools/triggers.py` | The 543 phrases that fire each skill. Edit here, then re-inject. |
 | `tools/eval-router.py` | Scores the router. Run it after any change to triggers. |
 
 ## Requirements
