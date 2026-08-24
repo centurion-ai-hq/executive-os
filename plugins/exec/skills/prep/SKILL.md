@@ -1,5 +1,5 @@
 ---
-description: "Prepare the executive for a meeting or call before it happens: research the people and the organization, pull every prior commitment and decision involving them, state the outcome worth wanting, and predict the three most likely objections with an answer to each. Use when the user says 'I have a call with', 'prep me for', 'meeting with X tomorrow', 'what do I need to know before', or 'pitch to'. Produces a one-page prep sheet readable in five minutes."
+description: "Readiness for a whole meeting or call: the room, the agenda, the outcome worth wanting, and the pushback likely to come. Use when the user says 'I have a call with', 'prep me for', 'meeting with X tomorrow', 'what do I need to know before', or 'pitch to'. Produces a one-page prep sheet readable in five minutes."
 argument-hint: "[who and what the meeting is about]"
 when_to_use: Fire this when the user says anything like "I have a call with", "prep me for", "meeting with", "before I walk in", "pitch to", "what do I need to know before", "getting ready for", "call tomorrow", "meeting tomorrow", "who am I meeting", "brief me on this meeting".
 ---

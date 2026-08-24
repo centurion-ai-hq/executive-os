@@ -1,5 +1,5 @@
 ---
-description: Argue against a plan the user is attached to before they commit to it, and end with a clear proceed, proceed-with-a-change, or stop verdict. Use when the user says "poke holes in this", "talk me out of it", "what am I missing", "play devil's advocate", "tear this apart", "is this actually a good idea", or is about to commit real time or money to a plan.
+description: "One honest voice arguing against a plan the user already likes, ending in a single verdict. Not a multi-step review and not a panel of viewpoints. Use when the user says "poke holes in this", "talk me out of it", "what am I missing", "play devil's advocate", "tear this apart", "is this actually a good idea", or is about to commit real time or money to a plan."
 when_to_use: Fire this when the user says anything like "poke holes", "talk me out of it", "what am I missing", "devil's advocate", "tear this apart", "push back on this", "argue against", "is this actually a good idea", "what could go wrong", "stress test this", "be honest with me", "do not agree with me", "what is wrong with this", "am I fooling myself".
 ---
 

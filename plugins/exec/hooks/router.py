@@ -144,11 +144,23 @@ def route(prompt):
     return hits[:MAX_OUT]
 
 
-def one_liner(desc, limit=88):
-    """First sentence of the description, for the roster."""
-    d = re.split(r"(?<=[.!?])\s+", desc.strip())
-    out = d[0] if d else desc
-    return out[:limit].rstrip()
+def one_liner(desc, limit=104, floor=48):
+    """
+    A roster line with enough substance to tell this skill from its neighbour.
+
+    Taking only the first sentence looks tidy and silently destroys any skill whose description
+    opens with a short label. Six of forty-five reduced to "Battle drill." and "The tutor.",
+    which are not descriptions of anything. Keep adding sentences until the line carries real
+    signal, then cap it.
+    """
+    parts = re.split(r"(?<=[.!?])\s+", desc.strip())
+    out = ""
+    for part in parts:
+        if out and len(out) >= floor:
+            break
+        out = (out + " " + part).strip() if out else part
+    out = re.sub(r"^(Battle drill\.|The tutor\.)\s*", r"\1 ", out).strip()
+    return out[:limit].rstrip().rstrip(",;")
 
 
 def roster():
