@@ -1,0 +1,154 @@
+════════════════════════════════════════════════════════════════════
+COPY EVERYTHING BELOW THIS LINE INTO AN EMAIL AND SEND IT TO HER.
+Change [HER NAME] and [YOUR NAME]. Change nothing else.
+════════════════════════════════════════════════════════════════════
+
+Subject: Your assistant, and 30 minutes this week
+
+Hi [HER NAME],
+
+Here is the thing I told you about. It puts an assistant on your laptop that
+remembers how you work and actually does the work, not just answers questions.
+You do not need to learn anything technical. You talk to it normally.
+
+Three steps. The first two take ten minutes. The third is us, together.
+
+STEP 1. Make a Claude account at claude.ai if you do not have one.
+
+STEP 2. Go to claude.ai, start a new chat, and paste in everything between the
+two lines below. It will walk you through installing the software, one step at
+a time, and it will wait for you between steps. Nothing to figure out.
+
+STEP 3. Book me 30 minutes. Once it is installed, you paste that same block a
+second time into the app it just installed, and it finishes the setup by asking
+you about a dozen questions. The very first one is what you want to name it. I
+want to be on the call for that part.
+
+One thing worth knowing now: it never sends an email, posts anything, or spends
+money without asking you first. It writes the draft. You press send. That never
+changes.
+
+[YOUR NAME]
+
+
+------------------- PASTE EVERYTHING BELOW INTO CLAUDE -------------------
+
+I am setting up the Executive OS, a Claude Code configuration built for people
+who run organisations and do not write code. That is me. I have never done this
+before and I am here to learn while you do it.
+
+THE KIT IS HERE: https://github.com/centurion-ai-hq/executive-os
+
+FIRST, WORK OUT WHERE YOU ARE. Ask yourself one question: can you run commands
+on my computer and read my files right now?
+
+  - If NO, you are Claude in a web browser. Run PART ONE below. Ignore Part Two.
+  - If YES, you are Claude Code on my machine. Run PART TWO. Ignore Part One.
+
+Tell me in one sentence which one you are, then begin.
+
+=== HOW TO TALK TO ME, IN BOTH PARTS ===
+
+- Plain English only. The first time you use any technical word, define it in
+  one short clause, right there, with a real world comparison.
+- Answer first, then the reason. Short paragraphs. No walls of text.
+- ONE STEP AT A TIME. Say what we are about to do and why, in two sentences. Do
+  it. Confirm it worked with proof, not a claim. Then say "next up" and WAIT for
+  me to say go. Never dump the whole plan at once.
+- Number every step against the total, like "Step 3 of 9", so I know how much is
+  left.
+- If something fails, say exactly what failed and what you are trying instead.
+  Never tell me something worked when you have not checked.
+- Some steps are mine to do by hand for safety. When you hit one, stop, hand me
+  the exact thing to type or click, and say in one line why it has to be me.
+
+THE ONE HARD RULE, IN BOTH PARTS: never ask me to paste a password, a key, a
+card number, or any ID number into this chat. Not once. If a step seems to need
+one, stop and tell me.
+
+=== PART ONE: YOU ARE CLAUDE IN A BROWSER. GET ME INSTALLED. ===
+
+Nine steps.
+
+1. Tell me in three sentences what Claude Code is and how it differs from
+   talking to you in this window. Use a comparison a non technical person gets.
+
+2. Ask me one question: Mac or Windows. Then give instructions for MY machine
+   only. Do not show me both.
+
+3. Recommend the Claude Code desktop app, because it means I never touch a
+   terminal. Give me the download link and walk me through installing it.
+
+4. Walk me through signing in. Tell me plainly which subscription plan I need
+   and what it costs, and if my current plan is not enough, say so now rather
+   than after I have spent an hour.
+
+5. Have me open Claude Code and confirm it is running. Ask what I see on screen
+   and confirm from my description that it worked.
+
+6. Help me pick and create one folder where my work with the assistant will
+   live. Recommend a simple name in my home folder. Explain that this folder is
+   the assistant's workspace and its memory lives inside it.
+
+7. Give me these two lines, one at a time, to type into Claude Code. Explain in
+   plain English what each does before I run it.
+
+       /plugin marketplace add centurion-ai-hq/executive-os
+       /plugin install exec@centurion
+
+   Tell me I do not need a GitHub account and will never see GitHub.
+
+8. Ask me which of these fits my work, then give me the matching line:
+       carries a sales number      ->  /plugin install exec-sales@centurion
+       runs operations             ->  /plugin install exec-ops@centurion
+       watches the money           ->  /plugin install exec-finance@centurion
+       a board or a mission        ->  /plugin install exec-mission@centurion
+
+9. Hand me over. Tell me to come back to this same block of text, copy it again,
+   and paste it into Claude Code. Tell me it will pick up at Part Two and finish
+   everything, including asking me what I want to name it.
+
+=== PART TWO: YOU ARE CLAUDE CODE. FINISH THE SETUP. ===
+
+1. Confirm you can see my machine. Name the folder we are in and one real file
+   in it, so I know the connection is real.
+
+2. Confirm the kit installed. Count the skills you can see and tell me the
+   number. If it is not there, walk me through the two install lines above.
+
+3. Set up my memory. Explain each one in a clause as you create it: a handbook
+   of my standing preferences at ~/.claude/CLAUDE.md, a corrections log at
+   ~/.claude/LESSONS.md, and a memory folder holding what is open, what has been
+   decided, and where we left off. Create them from the kit's setup folder.
+
+4. Set my permissions. Explain the leash in plain English: you may read my
+   files, research, draft and build freely, but you must ask me first before you
+   send anything to a person, publish anything, spend money, delete anything, or
+   change a setting outside this project. Set it that way.
+
+5. Run the setup interview in the kit's ONBOARD.md. Twelve questions, one at a
+   time, with a counter, applying each answer to the real file before asking the
+   next. The first question is what I want to name you. Ask it before anything
+   else.
+
+6. Set up my morning brief. Ask if I want it, recommend yes on weekdays at 7am,
+   and tell me the three things that surprise people: it runs in my local time,
+   it only runs while the app is open so if my laptop was shut it appears when I
+   open it, and each run starts fresh with no memory. Then RUN IT ONCE now and
+   open the file, so I have seen it work before I trust it.
+
+7. Run the verification pass at the bottom of ONBOARD.md. Show me a table with a
+   real PASS or FAIL on every line and what you actually saw. If something
+   failed, tell me straight, what you tried, and what you need from me.
+
+8. Do my first real task, start to finish, from the list I gave you during the
+   interview. Not a demo. Real work. Then say in two sentences what happened.
+
+9. Open the playbook, PLAYBOOK.html, and tell me to keep that tab. Then give me
+   the one rule that makes me self sufficient, and stop. From here I do not
+   learn commands. I say what I need in my own words and you sort it.
+
+Begin now. Tell me which part you are running, then Step 1. One step at a time,
+wait for me between steps.
+
+------------------- PASTE EVERYTHING ABOVE INTO CLAUDE -------------------
